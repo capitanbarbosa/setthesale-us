@@ -272,6 +272,21 @@ const AboutPage = () => {
       {/* CTA section */}
       <section className="relative py-20 px-4 bg-gradient-to-b from-blue-900 to-blue-950 overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/Shapes-icons.png')] bg-no-repeat bg-center bg-cover opacity-10"></div>
+
+        {/* Top Wave */}
+        <div className="absolute top-0 left-0 w-full overflow-hidden">
+          <svg
+            className="relative block w-full h-12"
+            viewBox="0 0 1440 100"
+            preserveAspectRatio="none"
+          >
+            <path
+              fill="#f9fafb"
+              d="M0,50 C240,100 480,0 720,50 C960,100 1200,0 1440,50 L1440,0 L0,0 Z"
+            ></path>
+          </svg>
+        </div>
+
         <div className="container mx-auto relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="text-white">
@@ -285,14 +300,27 @@ const AboutPage = () => {
               </Link>
             </div>
             <div className="flex justify-center">
-              <div className="w-80 h-80 rounded-full overflow-hidden">
-                <Image
-                  src="/aboutus-images/CTA-About-new.png"
-                  alt="Future-proof business"
-                  width={320}
-                  height={320}
-                  className="object-cover w-full h-full"
-                />
+              <div className="relative w-[24rem] h-80">
+                <div
+                  className="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-600 transform rotate-3 opacity-20"
+                  style={{ borderRadius: "8rem 5rem 5rem 5rem" }}
+                ></div>
+                <div
+                  className="absolute inset-2 bg-gradient-to-br from-pink-400 to-red-500 transform -rotate-2 opacity-30"
+                  style={{ borderRadius: "8rem 5rem 5rem 5rem" }}
+                ></div>
+                <div
+                  className="relative w-full h-full overflow-hidden border-4 border-white/20 backdrop-blur-sm bg-white/10 transform rotate-1"
+                  style={{ borderRadius: "7.5rem 4.5rem 4.5rem 4.5rem" }}
+                >
+                  <Image
+                    src="/aboutus-images/CTA-About-new.png"
+                    alt="Future-proof business"
+                    width={384}
+                    height={320}
+                    className="object-cover w-full h-full"
+                  />
+                </div>
               </div>
             </div>
           </div>
