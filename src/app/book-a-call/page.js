@@ -25,21 +25,16 @@ const BookCallPage = () => {
             revenue goals.
           </p>
 
-          {/* Placeholder for Calendly or other scheduling tool embed */}
-          <div className="bg-gray-100 p-8 rounded-lg min-h-[400px] flex items-center justify-center">
-            <div className="text-center">
-              <p className="text-lg text-gray-500 mb-4">
-                Scheduling calendar will be embedded here.
-              </p>
-              <a
-                href="https://calendly.com" // Replace with actual scheduling link
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-gradient-to-r from-red-400 to-pink-500 text-white font-bold py-3 px-8 rounded-lg text-lg"
-              >
-                Book on Calendly
-              </a>
-            </div>
+          {/* Calendly embed */}
+          <div className="bg-white p-4 rounded-lg shadow-lg">
+            <iframe
+              src="https://calendly.com/pachocripto/initial-consultation-companies"
+              width="100%"
+              height="700"
+              frameBorder="0"
+              title="Schedule a consultation"
+              className="rounded-lg"
+            ></iframe>
           </div>
         </div>
       </section>

@@ -25,7 +25,11 @@ const Navbar = () => {
           />
         </Link>
         <div className="flex-1 flex justify-end">
-          <Link href="/book-a-call">
+          <Link
+            href="https://calendly.com/pachocripto/initial-consultation-companies"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="bg-gradient-to-r from-red-400 to-pink-500 hover:from-red-500 hover:to-pink-600 text-white font-bold py-2 px-6 rounded-full transition-all duration-300">
               Book a Call
             </button>

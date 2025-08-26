@@ -166,7 +166,11 @@ const AboutPage = () => {
                 on real partnership, clear communication, and a deep commitment
                 to both your growth and ours.
               </p>
-              <Link href="/book-a-call">
+              <Link
+                href="https://calendly.com/pachocripto/initial-consultation-companies"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button className="bg-blue-900 hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300">
                   Begin Here
                 </button>
@@ -313,7 +317,11 @@ const AboutPage = () => {
               <h2 className="text-4xl font-bold mb-4">
                 Ready to become future-proof?
               </h2>
-              <Link href="/book-a-call">
+              <Link
+                href="https://calendly.com/pachocripto/initial-consultation-companies"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button className="bg-gradient-to-r from-red-400 to-pink-500 hover:from-red-500 hover:to-pink-600 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300">
                   Begin Here
                 </button>
