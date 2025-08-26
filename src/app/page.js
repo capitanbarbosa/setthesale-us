@@ -15,7 +15,11 @@ export default function Home() {
             AI-Powered Lead Qualification That Books You More Appointments —
             Without Adding Headcount or Wasting Time.
           </p>
-          <Link href="https://calendly.com/pachocripto/initial-consultation-companies" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="https://calendly.com/pachocripto/initial-consultation-companies"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="mt-8 bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300">
               Book Your Free Growth Audit
             </button>
@@ -63,10 +67,52 @@ export default function Home() {
         <h3 className="text-center text-2xl font-semibold mb-8 text-blue-900">
           Trusted by Top Teams
         </h3>
-        <div className="flex justify-center items-center space-x-12">
-          <p className="text-xl text-gray-500">Coaching</p>
-          <p className="text-xl text-gray-500">Real Estate</p>
-          <p className="text-xl text-gray-500">SaaS</p>
+        <div className="flex flex-wrap justify-center items-center gap-8 max-w-4xl mx-auto">
+          <div className="opacity-60 hover:opacity-100 transition-opacity duration-300">
+            <Image
+              src="/images/company-logo-1.svg"
+              alt="Company Logo 1"
+              width={120}
+              height={40}
+              className="grayscale hover:grayscale-0 transition-all duration-300"
+            />
+          </div>
+          <div className="opacity-60 hover:opacity-100 transition-opacity duration-300">
+            <Image
+              src="/images/company-logo-2.svg"
+              alt="Company Logo 2"
+              width={120}
+              height={40}
+              className="grayscale hover:grayscale-0 transition-all duration-300"
+            />
+          </div>
+          <div className="opacity-60 hover:opacity-100 transition-opacity duration-300">
+            <Image
+              src="/images/company-logo-3.svg"
+              alt="Company Logo 3"
+              width={120}
+              height={40}
+              className="grayscale hover:grayscale-0 transition-all duration-300"
+            />
+          </div>
+          <div className="opacity-60 hover:opacity-100 transition-opacity duration-300">
+            <Image
+              src="/images/company-logo-4.svg"
+              alt="Company Logo 4"
+              width={120}
+              height={40}
+              className="grayscale hover:grayscale-0 transition-all duration-300"
+            />
+          </div>
+          <div className="opacity-60 hover:opacity-100 transition-opacity duration-300">
+            <Image
+              src="/images/company-logo-5.svg"
+              alt="Company Logo 5"
+              width={120}
+              height={40}
+              className="grayscale hover:grayscale-0 transition-all duration-300"
+            />
+          </div>
         </div>
       </section>
 
@@ -139,7 +185,11 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <Link href="https://calendly.com/pachocripto/initial-consultation-companies" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="https://calendly.com/pachocripto/initial-consultation-companies"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="mt-12 bg-gradient-to-r from-red-400 to-pink-500 hover:from-red-500 hover:to-pink-600 text-white font-bold py-4 px-10 rounded-full text-xl shadow-lg transform hover:scale-105 transition-all duration-300">
               Begin Here
             </button>
