@@ -10,13 +10,40 @@ const AboutPage = () => {
         <div className="relative z-10">
           <h1 className="text-5xl font-bold">About us</h1>
         </div>
+        {/* Wave SVG */}
+        <div className="absolute bottom-0 left-0 w-full overflow-hidden">
+          <svg
+            className="relative block w-full h-12"
+            viewBox="0 0 1440 100"
+            preserveAspectRatio="none"
+          >
+            <path
+              fill="#FFFFFF"
+              d="M0,50 C240,100 480,0 720,50 C960,100 1200,0 1440,50 L1440,100 L0,100 Z"
+            ></path>
+          </svg>
+        </div>
       </section>
 
       {/* Content Section 1 */}
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
+            <Image
+              src="/aboutus-images/Post-1.png"
+              alt="Beyond sales"
+              width={500}
+              height={400}
+              className="rounded-lg"
+            />
+          </div>
+          <div>
             <h2 className="text-3xl font-bold text-blue-900">Beyond sales</h2>
+            <p className="mt-4 text-gray-600">
+              In a world full of overhyped tools and empty sales promises, Set
+              the Sale doesn't just cut costs — we engineer qualified
+              conversations that actually convert.
+            </p>
             <p className="mt-4 text-gray-600">
               Our end-to-end system uses AI and proven strategy to align with
               your business goals — from identifying high-intent leads,
@@ -24,18 +51,9 @@ const AboutPage = () => {
               who are ready to talk.
             </p>
             <p className="mt-4 text-gray-600">
-              This isn’t just automation. It’s a smarter, faster pipeline —
+              This isn't just automation. It's a smarter, faster pipeline —
               built for real revenue, not just activity.
             </p>
-          </div>
-          <div>
-            <Image
-              src="/images/1720489090252.jpg"
-              alt="Beyond sales"
-              width={500}
-              height={400}
-              className="rounded-lg"
-            />
           </div>
         </div>
       </section>
@@ -44,20 +62,11 @@ const AboutPage = () => {
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <Image
-              src="/images/1735838456004.jpg"
-              alt="Digital empowerment"
-              width={500}
-              height={400}
-              className="rounded-lg"
-            />
-          </div>
-          <div>
             <h2 className="text-3xl font-bold text-blue-900">
               Digital empowerment
             </h2>
             <p className="mt-4 text-gray-600">
-              We’re not just optimizing your pipeline — we’re redefining how
+              We're not just optimizing your pipeline — we're redefining how
               modern sales teams grow through intelligent automation and
               empowered human talent.
             </p>
@@ -71,6 +80,15 @@ const AboutPage = () => {
               supported by automation and driven by opportunity — ready to
               accelerate your revenue and scale your success.
             </p>
+          </div>
+          <div>
+            <Image
+              src="/aboutus-images/About-Page-intro-pic.png"
+              alt="Digital empowerment"
+              width={500}
+              height={400}
+              className="rounded-lg"
+            />
           </div>
         </div>
       </section>
@@ -157,39 +175,39 @@ const AboutPage = () => {
             The faces behind set the sale
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gray-100 p-6 rounded-lg">
+            <div className="text-center">
               <Image
-                src="/images/Team-7.png"
+                src="/aboutus-images/PP.jpg"
                 alt="Francisco Ovalle"
-                width={150}
-                height={150}
-                className="rounded-full mx-auto"
+                width={200}
+                height={250}
+                className="rounded-lg mx-auto"
               />
               <h3 className="text-xl font-bold mt-4 text-blue-900">
                 Francisco Ovalle
               </h3>
               <p className="text-gray-600">Founder</p>
             </div>
-            <div className="bg-gray-100 p-6 rounded-lg">
+            <div className="text-center">
               <Image
-                src="/images/Team-7.png"
+                src="/aboutus-images/1724261669050.jpg"
                 alt="Sebastian Castro"
-                width={150}
-                height={150}
-                className="rounded-full mx-auto"
+                width={200}
+                height={250}
+                className="rounded-lg mx-auto"
               />
               <h3 className="text-xl font-bold mt-4 text-blue-900">
                 Sebastian Castro
               </h3>
               <p className="text-gray-600">Head of Growth</p>
             </div>
-            <div className="bg-gray-100 p-6 rounded-lg">
+            <div className="text-center">
               <Image
-                src="/images/Team-7.png"
+                src="/aboutus-images/1744670789746.jpg"
                 alt="Juanita Angel"
-                width={150}
-                height={150}
-                className="rounded-full mx-auto"
+                width={200}
+                height={250}
+                className="rounded-lg mx-auto"
               />
               <h3 className="text-xl font-bold mt-4 text-blue-900">
                 Juanita Angel
@@ -212,22 +230,52 @@ const AboutPage = () => {
             sales game up. Together, we achieve remarkable results
           </p>
           <div className="flex justify-center items-center space-x-12">
-            <p className="text-xl text-gray-500">Coaching</p>
-            <p className="text-xl text-gray-500">SaaS</p>
+            <Image
+              src="/aboutus-images/Elite-Services-Logo-BW-2.png"
+              alt="Elite Services"
+              width={100}
+              height={60}
+              className="opacity-60"
+            />
+            <Image
+              src="/aboutus-images/Imagen2.jpg"
+              alt="Client Logo"
+              width={80}
+              height={80}
+              className="opacity-60"
+            />
           </div>
         </div>
       </section>
 
       {/* CTA section */}
-      <section className="text-center py-20 px-4 bg-white">
-        <h2 className="text-4xl font-bold text-blue-900">
-          Ready to become future-proof?
-        </h2>
-        <Link href="/book-a-call">
-          <button className="mt-8 bg-gradient-to-r from-red-400 to-pink-500 text-white font-bold py-3 px-8 rounded-lg text-lg">
-            Begin Here
-          </button>
-        </Link>
+      <section className="relative py-20 px-4 bg-gradient-to-b from-blue-900 to-blue-950 overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/Shapes-icons.png')] bg-no-repeat bg-center bg-cover opacity-10"></div>
+        <div className="container mx-auto relative z-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="text-white">
+              <h2 className="text-4xl font-bold mb-4">
+                Ready to become future-proof?
+              </h2>
+              <Link href="/book-a-call">
+                <button className="bg-gradient-to-r from-red-400 to-pink-500 hover:from-red-500 hover:to-pink-600 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300">
+                  Begin Here
+                </button>
+              </Link>
+            </div>
+            <div className="flex justify-center">
+              <div className="w-80 h-80 rounded-full overflow-hidden">
+                <Image
+                  src="/aboutus-images/CTA-About-new.png"
+                  alt="Future-proof business"
+                  width={320}
+                  height={320}
+                  className="object-cover w-full h-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
