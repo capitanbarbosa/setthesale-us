@@ -300,7 +300,7 @@ const AboutPage = () => {
               </Link>
             </div>
             <div className="flex justify-center">
-              <div className="relative w-[24rem] h-80">
+              <div className="relative w-[34rem] h-[32rem] -mt-16">
                 <div
                   className="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-600 transform rotate-3 opacity-20"
                   style={{ borderRadius: "8rem 5rem 5rem 5rem" }}
@@ -310,14 +310,14 @@ const AboutPage = () => {
                   style={{ borderRadius: "8rem 5rem 5rem 5rem" }}
                 ></div>
                 <div
-                  className="relative w-full h-full overflow-hidden border-4 border-white/20 backdrop-blur-sm bg-white/10 transform rotate-1"
+                  className="relative w-full h-full overflow-hidden backdrop-blur-sm bg-white/10 transform rotate-1"
                   style={{ borderRadius: "7.5rem 4.5rem 4.5rem 4.5rem" }}
                 >
                   <Image
                     src="/aboutus-images/CTA-About-new.png"
                     alt="Future-proof business"
-                    width={384}
-                    height={320}
+                    width={1088}
+                    height={1024}
                     className="object-cover w-full h-full"
                   />
                 </div>
