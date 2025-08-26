@@ -99,7 +99,10 @@ const AboutPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* Left side - 2x2 Cards Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div
+                className="bg-white p-8 shadow-sm"
+                style={{ borderRadius: "1rem 1rem 1rem 3rem" }}
+              >
                 <h3 className="text-lg font-bold text-blue-900 mb-3">
                   Results-Driven Excellency
                 </h3>
@@ -108,7 +111,10 @@ const AboutPage = () => {
                   take is designed to drive measurable growth and real revenue.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div
+                className="bg-white p-8 shadow-sm"
+                style={{ borderRadius: "1rem 1rem 1rem 3rem" }}
+              >
                 <h3 className="text-lg font-bold text-blue-900 mb-3">
                   Partner-Centered Growth
                 </h3>
@@ -118,7 +124,10 @@ const AboutPage = () => {
                   matters most.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div
+                className="bg-white p-8 shadow-sm"
+                style={{ borderRadius: "1rem 1rem 1rem 3rem" }}
+              >
                 <h3 className="text-lg font-bold text-blue-900 mb-3">
                   Seamless Execution
                 </h3>
@@ -128,7 +137,10 @@ const AboutPage = () => {
                   deliver.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div
+                className="bg-white p-8 shadow-sm"
+                style={{ borderRadius: "1rem 1rem 1rem 3rem" }}
+              >
                 <h3 className="text-lg font-bold text-blue-900 mb-3">
                   Trust Through Transparency
                 </h3>
@@ -141,10 +153,10 @@ const AboutPage = () => {
 
             {/* Right side - Text Content */}
             <div className="text-center lg:text-left">
-              <h2 className="text-4xl font-bold text-blue-900 mb-4">
+              <h2 className="text-4xl font-bold text-blue-950 mb-4">
                 Empowered performance.
               </h2>
-              <h3 className="text-3xl font-bold text-blue-900 mb-6">
+              <h3 className="text-3xl font-bold text-blue-950 mb-6">
                 Delivered Simply
               </h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
@@ -195,45 +207,53 @@ const AboutPage = () => {
           <p className="text-lg text-gray-400 mb-12">
             The faces behind set the sale
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <Image
-                src="/aboutus-images/PP.jpg"
-                alt="Francisco Ovalle"
-                width={200}
-                height={250}
-                className="rounded-lg mx-auto"
-              />
-              <h3 className="text-xl font-bold mt-4 text-blue-900">
-                Francisco Ovalle
-              </h3>
-              <p className="text-gray-600">Founder</p>
-            </div>
-            <div className="text-center">
-              <Image
-                src="/aboutus-images/1724261669050.jpg"
-                alt="Sebastian Castro"
-                width={200}
-                height={250}
-                className="rounded-lg mx-auto"
-              />
-              <h3 className="text-xl font-bold mt-4 text-blue-900">
-                Sebastian Castro
-              </h3>
-              <p className="text-gray-600">Head of Growth</p>
-            </div>
-            <div className="text-center">
-              <Image
-                src="/aboutus-images/1744670789746.jpg"
-                alt="Juanita Angel"
-                width={200}
-                height={250}
-                className="rounded-lg mx-auto"
-              />
-              <h3 className="text-xl font-bold mt-4 text-blue-900">
-                Juanita Angel
-              </h3>
-              <p className="text-gray-600">Head of Marketing</p>
+          <div className="flex justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl">
+              <div className="bg-white/60 backdrop-blur-sm border border-gray-200/50 rounded-2xl px-2 py-1 text-center shadow-lg">
+                <div className="flex justify-center mb-4">
+                  <Image
+                    src="/aboutus-images/PP.jpg"
+                    alt="Francisco Ovalle"
+                    width={240}
+                    height={360}
+                    className="rounded-xl object-cover"
+                  />
+                </div>
+                <h3 className="text-lg font-medium text-gray-800 mb-3">
+                  Francisco Ovalle
+                </h3>
+                <p className="text-gray-600 text-sm mb-3">Founder</p>
+              </div>
+              <div className="bg-white/60 backdrop-blur-sm border border-gray-200/50 rounded-2xl px-2 py-1 text-center shadow-lg">
+                <div className="flex justify-center mb-4">
+                  <Image
+                    src="/aboutus-images/1724261669050.jpg"
+                    alt="Sebastian Castro"
+                    width={240}
+                    height={360}
+                    className="rounded-xl object-cover"
+                  />
+                </div>
+                <h3 className="text-lg font-medium text-gray-800 mb-3">
+                  Sebastian Castro
+                </h3>
+                <p className="text-gray-600 text-sm mb-3">Head of Growth</p>
+              </div>
+              <div className="bg-white/60 backdrop-blur-sm border border-gray-200/50 rounded-2xl px-2 py-1 text-center shadow-lg">
+                <div className="flex justify-center mb-4">
+                  <Image
+                    src="/aboutus-images/1744670789746.jpg"
+                    alt="Juanita Angel"
+                    width={240}
+                    height={360}
+                    className="rounded-xl object-cover"
+                  />
+                </div>
+                <h3 className="text-lg font-medium text-gray-800 mb-3">
+                  Juanita Angel
+                </h3>
+                <p className="text-gray-600 text-sm mb-3">Head of Marketing</p>
+              </div>
             </div>
           </div>
         </div>
@@ -303,15 +323,15 @@ const AboutPage = () => {
               <div className="relative w-[34rem] h-[32rem] -mt-16">
                 <div
                   className="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-600 transform rotate-3 opacity-20"
-                  style={{ borderRadius: "8rem 5rem 5rem 5rem" }}
+                  style={{ borderRadius: "10rem 5rem 5rem 5rem" }}
                 ></div>
                 <div
                   className="absolute inset-2 bg-gradient-to-br from-pink-400 to-red-500 transform -rotate-2 opacity-30"
-                  style={{ borderRadius: "8rem 5rem 5rem 5rem" }}
+                  style={{ borderRadius: "10rem 5rem 5rem 5rem" }}
                 ></div>
                 <div
                   className="relative w-full h-full overflow-hidden backdrop-blur-sm bg-white/10 transform rotate-1"
-                  style={{ borderRadius: "7.5rem 4.5rem 4.5rem 4.5rem" }}
+                  style={{ borderRadius: "9.5rem 4.5rem 4.5rem 4.5rem" }}
                 >
                   <Image
                     src="/aboutus-images/CTA-About-new.png"

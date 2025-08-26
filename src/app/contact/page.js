@@ -108,6 +108,14 @@ const ContactPage = () => {
             </h3>
             <p className="mt-2 text-lg text-blue-600">info@setthesale.us</p>
           </div>
+          <div className="text-center mt-8">
+            <h3 className="text-xl font-semibold text-blue-900">
+              Business Hours
+            </h3>
+            <p className="mt-2 text-lg text-gray-700">
+              Monday – Friday: 9AM – 6PM
+            </p>
+          </div>
         </div>
       </section>
     </div>

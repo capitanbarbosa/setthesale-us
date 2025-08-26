@@ -15,7 +15,7 @@ export default function Home() {
             AI-Powered Lead Qualification That Books You More Appointments —
             Without Adding Headcount or Wasting Time.
           </p>
-          <Link href="/book-a-call">
+          <Link href="https://calendly.com/pachocripto/initial-consultation-companies" target="_blank" rel="noopener noreferrer">
             <button className="mt-8 bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300">
               Book Your Free Growth Audit
             </button>
@@ -139,7 +139,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <Link href="/book-a-call">
+          <Link href="https://calendly.com/pachocripto/initial-consultation-companies" target="_blank" rel="noopener noreferrer">
             <button className="mt-12 bg-gradient-to-r from-red-400 to-pink-500 hover:from-red-500 hover:to-pink-600 text-white font-bold py-4 px-10 rounded-full text-xl shadow-lg transform hover:scale-105 transition-all duration-300">
               Begin Here
             </button>
