@@ -85,8 +85,8 @@ const AboutPage = () => {
             <Image
               src="/aboutus-images/About-Page-intro-pic.png"
               alt="Digital empowerment"
-              width={500}
-              height={400}
+              width={375}
+              height={300}
               className="rounded-lg"
             />
           </div>
@@ -94,50 +94,71 @@ const AboutPage = () => {
       </section>
 
       {/* Values Section */}
-      <section className="py-20 px-4 bg-white">
+      <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12 text-blue-900">
-            Results-Driven Excellency
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-gray-100 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-blue-900">
-                Results-Driven Excellency
-              </h3>
-              <p className="mt-2 text-gray-600">
-                We measure success by outcomes, not activity. Every action we
-                take is designed to drive measurable growth and real revenue for
-                our clients.
-              </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            {/* Left side - 2x2 Cards Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-blue-900 mb-3">
+                  Results-Driven Excellency
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  We measure success by outcomes, not activity. Every action we
+                  take is designed to drive measurable growth and real revenue.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-blue-900 mb-3">
+                  Partner-Centered Growth
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  By understanding your unique Areas of Impact (AOIs), we deploy
+                  AI-powered systems and strategic automation to optimize what
+                  matters most.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-blue-900 mb-3">
+                  Seamless Execution
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  Our services are built to plug in and perform—fast. We value
+                  simplicity, speed, and operational precision in everything we
+                  deliver.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-blue-900 mb-3">
+                  Trust Through Transparency
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  We build long-term relationships through open communication,
+                  honest reporting, and consistent delivery on promises.
+                </p>
+              </div>
             </div>
-            <div className="bg-gray-100 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-blue-900">
-                Partner-Centered Growth
+
+            {/* Right side - Text Content */}
+            <div className="text-center lg:text-left">
+              <h2 className="text-4xl font-bold text-blue-900 mb-4">
+                Empowered performance.
+              </h2>
+              <h3 className="text-3xl font-bold text-blue-900 mb-6">
+                Delivered Simply
               </h3>
-              <p className="mt-2 text-gray-600">
-                By understanding your unique Areas of Impact (AOIs), we deploy
-                AI-powered systems and strategic automation to optimize what
-                matters most.
+              <p className="text-gray-600 mb-6 leading-relaxed">
+                We combine skilled LATAM talent with automated AI systems and
+                processes to help you scale faster — no hiring headaches, no
+                guesswork, just consistent sales momentum. Our approach is built
+                on real partnership, clear communication, and a deep commitment
+                to both your growth and ours.
               </p>
-            </div>
-            <div className="bg-gray-100 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-blue-900">
-                Seamless Excecution
-              </h3>
-              <p className="mt-2 text-gray-600">
-                Our services are built to plug in and perform—fast. We value
-                simplicity, speed, and operational precision in everything we
-                deliver.
-              </p>
-            </div>
-            <div className="bg-gray-100 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-blue-900">
-                Trust Through Transparency
-              </h3>
-              <p className="mt-2 text-gray-600">
-                We build long-term relationships through open communication,
-                honest reporting, and consistent delivery on promises.
-              </p>
+              <Link href="/book-a-call">
+                <button className="bg-blue-900 hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300">
+                  Begin Here
+                </button>
+              </Link>
             </div>
           </div>
         </div>
