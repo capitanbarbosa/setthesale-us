@@ -5,13 +5,11 @@ const AboutPage = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="text-center py-20 px-4 bg-gray-50">
-        <h1 className="text-5xl font-bold text-blue-900">About Us</h1>
-        <p className="text-xl mt-4 max-w-3xl mx-auto text-gray-600">
-          In a world full of overhyped tools and empty sales promises, Set the
-          Sale doesn’t just cut costs — we engineer qualified conversations that
-          actually convert.
-        </p>
+      <section className="relative text-center py-20 px-4 text-white bg-gradient-to-b from-blue-900 to-blue-950 overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/Shapes-icons.png')] bg-no-repeat bg-center bg-cover opacity-10"></div>
+        <div className="relative z-10">
+          <h1 className="text-5xl font-bold">About us</h1>
+        </div>
       </section>
 
       {/* Content Section 1 */}
