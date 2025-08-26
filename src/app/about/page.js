@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const AboutPage = () => {
   return (
-    <div className="bg-gray-950 text-white">
+    <div>
       {/* Hero Section */}
-      <section className="text-center py-20 px-4">
-        <h1 className="text-5xl font-bold">About Us</h1>
-        <p className="text-xl mt-4 max-w-3xl mx-auto text-gray-300">
+      <section className="text-center py-20 px-4 bg-gray-50">
+        <h1 className="text-5xl font-bold text-blue-900">About Us</h1>
+        <p className="text-xl mt-4 max-w-3xl mx-auto text-gray-600">
           In a world full of overhyped tools and empty sales promises, Set the
           Sale doesn’t just cut costs — we engineer qualified conversations that
           actually convert.
@@ -15,23 +15,22 @@ const AboutPage = () => {
       </section>
 
       {/* Content Section 1 */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 bg-white">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-bold">Beyond sales</h2>
-            <p className="mt-4 text-gray-400">
+            <h2 className="text-3xl font-bold text-blue-900">Beyond sales</h2>
+            <p className="mt-4 text-gray-600">
               Our end-to-end system uses AI and proven strategy to align with
               your business goals — from identifying high-intent leads,
               qualifying them in real time, and booking appointments with buyers
               who are ready to talk.
             </p>
-            <p className="mt-4 text-gray-400">
+            <p className="mt-4 text-gray-600">
               This isn’t just automation. It’s a smarter, faster pipeline —
               built for real revenue, not just activity.
             </p>
           </div>
           <div>
-            {/* The user mentioned Post-1.png but it's not in the image list, I will use a placeholder */}
             <Image
               src="/images/1720489090252.jpg"
               alt="Beyond sales"
@@ -44,10 +43,9 @@ const AboutPage = () => {
       </section>
 
       {/* Content Section 2 */}
-      <section className="py-20 px-4 bg-gray-900">
+      <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            {/* The user mentioned About-Page-intro-pic.png but it's not in the image list, I will use a placeholder */}
             <Image
               src="/images/1735838456004.jpg"
               alt="Digital empowerment"
@@ -57,18 +55,20 @@ const AboutPage = () => {
             />
           </div>
           <div>
-            <h2 className="text-3xl font-bold">Digital empowerment</h2>
-            <p className="mt-4 text-gray-400">
+            <h2 className="text-3xl font-bold text-blue-900">
+              Digital empowerment
+            </h2>
+            <p className="mt-4 text-gray-600">
               We’re not just optimizing your pipeline — we’re redefining how
               modern sales teams grow through intelligent automation and
               empowered human talent.
             </p>
-            <p className="mt-4 text-gray-400">
+            <p className="mt-4 text-gray-600">
               Our plug-and-play AI sales systems integrate seamlessly into your
               workflow, delivering qualified leads, booked appointments, and
               sales-ready conversations — without hiring or overhead.
             </p>
-            <p className="mt-4 text-gray-400">
+            <p className="mt-4 text-gray-600">
               And behind every result is a highly trained LATAM sales pro,
               supported by automation and driven by opportunity — ready to
               accelerate your revenue and scale your success.
@@ -78,39 +78,47 @@ const AboutPage = () => {
       </section>
 
       {/* Values Section */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 bg-white">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">
+          <h2 className="text-3xl font-bold text-center mb-12 text-blue-900">
             Results-Driven Excellency
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-gray-800 p-6 rounded-lg">
-              <h3 className="text-xl font-bold">Results-Driven Excellency</h3>
-              <p className="mt-2 text-gray-400">
+            <div className="bg-gray-100 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-blue-900">
+                Results-Driven Excellency
+              </h3>
+              <p className="mt-2 text-gray-600">
                 We measure success by outcomes, not activity. Every action we
                 take is designed to drive measurable growth and real revenue for
                 our clients.
               </p>
             </div>
-            <div className="bg-gray-800 p-6 rounded-lg">
-              <h3 className="text-xl font-bold">Partner-Centered Growth</h3>
-              <p className="mt-2 text-gray-400">
+            <div className="bg-gray-100 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-blue-900">
+                Partner-Centered Growth
+              </h3>
+              <p className="mt-2 text-gray-600">
                 By understanding your unique Areas of Impact (AOIs), we deploy
                 AI-powered systems and strategic automation to optimize what
                 matters most.
               </p>
             </div>
-            <div className="bg-gray-800 p-6 rounded-lg">
-              <h3 className="text-xl font-bold">Seamless Excecution</h3>
-              <p className="mt-2 text-gray-400">
+            <div className="bg-gray-100 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-blue-900">
+                Seamless Excecution
+              </h3>
+              <p className="mt-2 text-gray-600">
                 Our services are built to plug in and perform—fast. We value
                 simplicity, speed, and operational precision in everything we
                 deliver.
               </p>
             </div>
-            <div className="bg-gray-800 p-6 rounded-lg">
-              <h3 className="text-xl font-bold">Trust Through Transparency</h3>
-              <p className="mt-2 text-gray-400">
+            <div className="bg-gray-100 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-blue-900">
+                Trust Through Transparency
+              </h3>
+              <p className="mt-2 text-gray-600">
                 We build long-term relationships through open communication,
                 honest reporting, and consistent delivery on promises.
               </p>
@@ -120,7 +128,7 @@ const AboutPage = () => {
       </section>
 
       {/* Mission Section */}
-      <section className="py-20 px-4 text-center bg-gray-900">
+      <section className="py-20 px-4 text-center bg-blue-950 text-white">
         <h2 className="text-4xl font-bold">Your pain. Our mission.</h2>
         <p className="text-xl mt-4 text-gray-300">
           Empowered performance.
@@ -135,21 +143,23 @@ const AboutPage = () => {
           your growth and ours.
         </p>
         <Link href="/book-a-call">
-          <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg">
+          <button className="mt-8 bg-gradient-to-r from-red-400 to-pink-500 text-white font-bold py-3 px-8 rounded-lg text-lg">
             Begin Here
           </button>
         </Link>
       </section>
 
       {/* Team Section */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 bg-white">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-2">Meet our team</h2>
+          <h2 className="text-3xl font-bold mb-2 text-blue-900">
+            Meet our team
+          </h2>
           <p className="text-lg text-gray-400 mb-12">
             The faces behind set the sale
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gray-800 p-6 rounded-lg">
+            <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 src="/images/Team-7.png"
                 alt="Francisco Ovalle"
@@ -157,10 +167,12 @@ const AboutPage = () => {
                 height={150}
                 className="rounded-full mx-auto"
               />
-              <h3 className="text-xl font-bold mt-4">Francisco Ovalle</h3>
-              <p className="text-gray-400">Founder</p>
+              <h3 className="text-xl font-bold mt-4 text-blue-900">
+                Francisco Ovalle
+              </h3>
+              <p className="text-gray-600">Founder</p>
             </div>
-            <div className="bg-gray-800 p-6 rounded-lg">
+            <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 src="/images/Team-7.png"
                 alt="Sebastian Castro"
@@ -168,10 +180,12 @@ const AboutPage = () => {
                 height={150}
                 className="rounded-full mx-auto"
               />
-              <h3 className="text-xl font-bold mt-4">Sebastian Castro</h3>
-              <p className="text-gray-400">Head of Growth</p>
+              <h3 className="text-xl font-bold mt-4 text-blue-900">
+                Sebastian Castro
+              </h3>
+              <p className="text-gray-600">Head of Growth</p>
             </div>
-            <div className="bg-gray-800 p-6 rounded-lg">
+            <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 src="/images/Team-7.png"
                 alt="Juanita Angel"
@@ -179,34 +193,40 @@ const AboutPage = () => {
                 height={150}
                 className="rounded-full mx-auto"
               />
-              <h3 className="text-xl font-bold mt-4">Juanita Angel</h3>
-              <p className="text-gray-400">Head of Marketing</p>
+              <h3 className="text-xl font-bold mt-4 text-blue-900">
+                Juanita Angel
+              </h3>
+              <p className="text-gray-600">Head of Marketing</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Clients Section */}
-      <section className="py-20 px-4 bg-gray-900">
+      <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-2">Meet our clients</h2>
+          <h2 className="text-3xl font-bold mb-2 text-blue-900">
+            Meet our clients
+          </h2>
           <p className="text-lg text-gray-400 mb-12">Working for you</p>
-          <p className="max-w-3xl mx-auto text-gray-300 mb-12">
+          <p className="max-w-3xl mx-auto text-gray-600 mb-12">
             We partner with forward-thinking brands that trust us to step their
             sales game up. Together, we achieve remarkable results
           </p>
           <div className="flex justify-center items-center space-x-12">
-            <p className="text-xl text-gray-400">Coaching</p>
-            <p className="text-xl text-gray-400">SaaS</p>
+            <p className="text-xl text-gray-500">Coaching</p>
+            <p className="text-xl text-gray-500">SaaS</p>
           </div>
         </div>
       </section>
 
       {/* CTA section */}
-      <section className="text-center py-20 px-4">
-        <h2 className="text-4xl font-bold">Ready to become future-proof?</h2>
+      <section className="text-center py-20 px-4 bg-white">
+        <h2 className="text-4xl font-bold text-blue-900">
+          Ready to become future-proof?
+        </h2>
         <Link href="/book-a-call">
-          <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg">
+          <button className="mt-8 bg-gradient-to-r from-red-400 to-pink-500 text-white font-bold py-3 px-8 rounded-lg text-lg">
             Begin Here
           </button>
         </Link>
