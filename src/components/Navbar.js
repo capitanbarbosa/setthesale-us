@@ -46,6 +46,12 @@ const Navbar = () => {
               Services
             </Link>
             <Link
+              href="/ads-dashboard"
+              className="hover:text-gray-300 transition-colors duration-200"
+            >
+              Ads Intelligence
+            </Link>
+            <Link
               href="/contact"
               className="hover:text-gray-300 transition-colors duration-200"
             >
@@ -123,6 +129,13 @@ const Navbar = () => {
               onClick={closeMenu}
             >
               Services
+            </Link>
+            <Link
+              href="/ads-dashboard"
+              className="block px-3 py-2 rounded-md text-base font-medium hover:text-gray-300 hover:bg-blue-800 transition-colors duration-200"
+              onClick={closeMenu}
+            >
+              Ads Intelligence
             </Link>
             <Link
               href="/contact"
