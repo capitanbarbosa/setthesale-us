@@ -122,7 +122,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="/images/logo-black-sideways.png"
+              src="/images/Logo-PNG.png"
               alt="Set The Sale Logo"
               width={120}
               height={40}
