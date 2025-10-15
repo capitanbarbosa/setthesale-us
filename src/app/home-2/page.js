@@ -97,7 +97,7 @@ export default function Home() {
       <section className="py-24 px-4 bg-gray-50">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <p className="text-purple-600 font-semibold">TESTIMONIALS</p>
+            <p className="text-blue-600 font-semibold">TESTIMONIALS</p>
             <h2 className="text-4xl font-bold text-gray-900 mt-2">Hear What Our Users Are Saying</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -128,13 +128,13 @@ export default function Home() {
 
       {/* Final CTA Section */}
       <section className="py-24 px-4 bg-white">
-        <div className="container mx-auto text-center bg-purple-600 text-white p-16 rounded-2xl shadow-2xl">
+        <div className="container mx-auto text-center bg-blue-600 text-white p-16 rounded-2xl shadow-2xl">
           <h2 className="text-4xl font-bold">Managing Over 20K Minutes of Calls Monthly?</h2>
-          <p className="text-xl mt-4 max-w-3xl mx-auto text-purple-100">
+          <p className="text-xl mt-4 max-w-3xl mx-auto text-blue-100">
             Let our experts show you how Voice AI can scale your customer service operations and deliver ROI around the clock.
           </p>
           <Link href="/book-a-call">
-            <button className="mt-8 bg-white hover:bg-gray-100 text-purple-600 font-bold py-4 px-10 rounded-lg text-lg transition-colors">
+            <button className="mt-8 bg-white hover:bg-gray-100 text-blue-600 font-bold py-4 px-10 rounded-lg text-lg transition-colors">
               Contact Sales
             </button>
           </Link>

@@ -140,7 +140,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="bg-gradient-to-r from-red-400 to-pink-500 hover:from-red-500 hover:to-pink-600 text-black font-semibold py-2 px-4 rounded-lg transition-all duration-300 text-sm">
+              <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 text-sm">
                 Book a Call
               </button>
             </Link>
@@ -204,7 +204,7 @@ const Navbar = () => {
                 rel="noopener noreferrer"
                 onClick={closeMenu}
               >
-                <button className="w-full bg-gradient-to-r from-red-400 to-pink-500 hover:from-red-500 hover:to-pink-600 text-black font-semibold py-3 px-4 rounded-lg transition-all duration-300">
+                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-300">
                   Book a Call
                 </button>
               </Link>
