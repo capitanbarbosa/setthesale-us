@@ -77,6 +77,7 @@ const Navbar = () => {
       subItems: [
         { href: "/home-1", label: "Home 1" },
         { href: "/home-2", label: "Home 2" },
+        { href: "/home-3", label: "Home 3" },
       ],
     },
     {
