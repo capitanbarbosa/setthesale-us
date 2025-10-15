@@ -3,7 +3,7 @@ import Link from "next/link";
 
 // It's good practice to define icons as components for reusability
 const FeatureIcon = ({ d }) => (
-  <svg className="w-8 h-8 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={d}></path>
   </svg>
 );
@@ -21,7 +21,7 @@ export default function Home() {
           simplifying appointment management and enhancing customer satisfaction while saving time.
         </p>
         <Link href="/book-a-call">
-          <button className="mt-8 bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors">
+          <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors">
             Contact Sales
           </button>
         </Link>
@@ -44,7 +44,7 @@ export default function Home() {
       {/* Features Section */}
       <section className="py-20 px-4 bg-gray-800">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-2 text-purple-400">FEATURES</h2>
+          <h2 className="text-3xl font-bold text-center mb-2 text-blue-400">FEATURES</h2>
           <h3 className="text-4xl font-bold text-center mb-12">Why Choose Our AI Appointment Setter?</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-900 p-8 rounded-lg">
@@ -89,29 +89,29 @@ export default function Home() {
             <div className="bg-gray-800 p-6 rounded-lg">
               <p className="text-gray-400 mb-4">"Synthflow's Voice AI agents help us book more demos faster. We increased the conversion rates in the top of our lead pipeline, the number of contacts dialed by 217% and the number of answered calls, 24%."</p>
               <p className="font-bold">- Daniel Lefanov</p>
-              <p className="text-sm text-purple-400">Implementation Manager, Smartcat</p>
+              <p className="text-sm text-blue-400">Implementation Manager, Smartcat</p>
             </div>
             <div className="bg-gray-800 p-6 rounded-lg">
               <p className="text-gray-400 mb-4">"We managed to beat our quarterly quota by 15% for 3 quarters in a row with Set The Sale."</p>
               <p className="font-bold">- Ryan</p>
-              <p className="text-sm text-purple-400">Sales Manager - SaaS</p>
+              <p className="text-sm text-blue-400">Sales Manager - SaaS</p>
             </div>
             <div className="bg-gray-800 p-6 rounded-lg">
               <p className="text-gray-400 mb-4">"My appointment setting process used to be a pain in the ass. Now it's just easy."</p>
               <p className="font-bold">- Lamar</p>
-              <p className="text-sm text-purple-400">CEO - Coaching</p>
+              <p className="text-sm text-blue-400">CEO - Coaching</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Final CTA Section */}
-      <section className="text-center py-20 px-4 bg-purple-800 bg-opacity-20">
+      <section className="text-center py-20 px-4 bg-blue-800 bg-opacity-20">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold">Managing Over 20K Minutes of Calls Monthly?</h2>
           <p className="text-xl mt-4 text-gray-300">Dive deeper with our experts to learn how Voice AI can scale your customer service operations and deliver ROI around the clock.</p>
           <Link href="/book-a-call">
-            <button className="mt-8 bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors">
+            <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors">
               Contact Sales
             </button>
           </Link>

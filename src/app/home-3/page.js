@@ -38,20 +38,20 @@ const HomePage3 = () => {
     <div className="bg-white text-gray-800 font-sans">
       {/* Hero Section */}
       <section className="text-center py-16 px-4">
-        <p className="text-purple-600 font-semibold">AI APPOINTMENT SETTER</p>
+        <p className="text-blue-600 font-semibold">AI APPOINTMENT SETTER</p>
         <h1 className="text-5xl md:text-6xl font-bold mt-4">
           Never Miss a Lead Again.
           <br />
-          Book <span className="text-purple-600">More Sales Calls.</span>
+          Book <span className="text-blue-600">More Sales Calls.</span>
         </h1>
         <p className="text-lg text-gray-600 mt-6 max-w-2xl mx-auto">
           Follow up leads in 10 seconds - with a 62% lead to booking rate.
         </p>
         <div className="mt-8 flex justify-center gap-4">
-          <button className="bg-purple-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-purple-700 transition-colors">
+          <button className="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition-colors">
             Get Started
           </button>
-          <button className="bg-white text-purple-600 font-semibold py-3 px-6 rounded-lg border border-purple-600 hover:bg-purple-50 transition-colors">
+          <button className="bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg border border-blue-600 hover:bg-blue-50 transition-colors">
             Book a Demo
           </button>
         </div>
@@ -72,7 +72,7 @@ const HomePage3 = () => {
             className="rounded-lg shadow-2xl"
           />
           <div className="absolute inset-0 flex items-center justify-center">
-            <button className="bg-purple-600 p-4 rounded-full text-white shadow-lg">
+            <button className="bg-blue-600 p-4 rounded-full text-white shadow-lg">
               <FaPlay className="w-8 h-8" />
             </button>
           </div>
@@ -83,7 +83,7 @@ const HomePage3 = () => {
       <section className="py-20 px-4 text-center bg-gray-50">
         <h2 className="text-4xl font-bold">
           Hiring More SDRs Won't Fix a{" "}
-          <span className="text-purple-600">Broken Lead Response.</span>
+          <span className="text-blue-600">Broken Lead Response.</span>
         </h2>
         <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
           Automate first contact in under 10 seconds - and convert up to 62%
@@ -97,15 +97,15 @@ const HomePage3 = () => {
           <div>
             <h2 className="text-4xl font-bold">
               Setter AI is the{" "}
-              <span className="text-purple-600">fastest</span> way to turn
+              <span className="text-blue-600">fastest</span> way to turn
               leads into sales calls for businesses.
             </h2>
-            <button className="mt-6 bg-purple-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-purple-700 transition-colors">
+            <button className="mt-6 bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition-colors">
               Get Started
             </button>
           </div>
           <div className="text-center">
-            <p className="text-8xl font-bold text-purple-600">10s</p>
+            <p className="text-8xl font-bold text-blue-600">10s</p>
             <p className="text-gray-600 mt-2">
               Setter AI follow up with your leads in just 10 seconds.
             </p>
@@ -117,7 +117,7 @@ const HomePage3 = () => {
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold">
-            Setter AI requires <span className="text-purple-600">zero change</span> to
+            Setter AI requires <span className="text-blue-600">zero change</span> to
             your business.
           </h2>
           <div className="mt-10 flex flex-wrap justify-center items-center gap-8">
@@ -135,7 +135,7 @@ const HomePage3 = () => {
         <div className="container mx-auto text-center max-w-3xl">
           <ul className="space-y-4 text-2xl font-semibold">
             <li>You connect your lead forms.</li>
-            <li className="text-purple-600">
+            <li className="text-blue-600">
               Your response time drops to 10 seconds.
             </li>
             <li>Your booking rate skyrockets.</li>
@@ -150,7 +150,7 @@ const HomePage3 = () => {
         <h2 className="text-4xl font-bold">
           Stop losing hot leads.
           <br />
-          Follow-up every lead in <span className="text-purple-600">10 seconds.</span>
+          Follow-up every lead in <span className="text-blue-600">10 seconds.</span>
         </h2>
         <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
           First message in 10 seconds after form submission.
@@ -168,12 +168,12 @@ const HomePage3 = () => {
             className="rounded-lg shadow-2xl"
           />
            <div className="absolute inset-0 flex items-center justify-center">
-            <button className="bg-purple-600 p-4 rounded-full text-white shadow-lg">
+            <button className="bg-blue-600 p-4 rounded-full text-white shadow-lg">
               <FaPlay className="w-8 h-8" />
             </button>
           </div>
         </div>
-        <button className="mt-8 bg-purple-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-purple-700 transition-colors">
+        <button className="mt-8 bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition-colors">
           Get me a demo
         </button>
       </section>

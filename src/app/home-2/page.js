@@ -3,8 +3,8 @@ import Link from "next/link";
 
 // Icon component for features
 const FeatureIcon = ({ d, className }) => (
-  <div className={`bg-purple-100 p-3 rounded-full ${className}`}>
-    <svg className="w-6 h-6 text-purple-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <div className={`bg-blue-100 p-3 rounded-full ${className}`}>
+    <svg className="w-6 h-6 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={d}></path>
     </svg>
   </div>
@@ -32,7 +32,7 @@ export default function Home() {
         <h1 className="text-6xl font-extrabold text-gray-900 leading-tight">
           AI Appointment Setter:
           <br />
-          <span className="text-purple-600">Automate Scheduling with Ease</span>
+          <span className="text-blue-600">Automate Scheduling with Ease</span>
         </h1>
         <p className="text-lg mt-6 max-w-2xl mx-auto text-gray-600">
           Our advanced AI automates scheduling, reminders, and rescheduling,
@@ -40,7 +40,7 @@ export default function Home() {
         </p>
         <div className="mt-10 flex justify-center gap-4">
           <Link href="/book-a-call">
-            <button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105">
               Contact Sales
             </button>
           </Link>
@@ -70,7 +70,7 @@ export default function Home() {
       <section className="py-24 px-4 bg-white">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <p className="text-purple-600 font-semibold">FEATURES</p>
+            <p className="text-blue-600 font-semibold">FEATURES</p>
             <h2 className="text-4xl font-bold text-gray-900 mt-2">Why Choose Our AI Appointment Setter?</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
