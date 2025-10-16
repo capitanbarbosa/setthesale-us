@@ -86,6 +86,7 @@ const Navbar = () => {
       subItems: [
         { href: "/about-1", label: "About 1" },
         { href: "/about-2", label: "About 2" },
+        { href: "/about-3", label: "About 3" },
       ],
     },
     {
