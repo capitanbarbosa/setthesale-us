@@ -28,27 +28,40 @@ export default function Home() {
   return (
     <div className="bg-gray-50 text-gray-800">
       {/* Hero Section */}
-      <section className="text-center py-24 px-4 bg-white">
-        <h1 className="text-6xl font-extrabold text-gray-900 leading-tight">
-          AI Appointment Setter:
-          <br />
-          <span className="text-blue-600">Automate Scheduling with Ease</span>
-        </h1>
-        <p className="text-lg mt-6 max-w-2xl mx-auto text-gray-600">
-          Our advanced AI automates scheduling, reminders, and rescheduling,
-          simplifying appointment management and enhancing customer satisfaction.
-        </p>
-        <div className="mt-10 flex justify-center gap-4">
-          <Link href="/book-a-call">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105">
-              Contact Sales
-            </button>
-          </Link>
-          <Link href="/services">
-            <button className="bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 font-bold py-3 px-8 rounded-lg text-lg transition-colors">
-              View Features
-            </button>
-          </Link>
+      <section className="relative overflow-hidden bg-white">
+        <div className="grid lg:grid-cols-2 gap-12 items-center py-24 px-4 max-w-7xl mx-auto">
+          <div className="text-center lg:text-left">
+            <h1 className="text-6xl font-extrabold text-gray-900 leading-tight">
+              AI Appointment Setter:
+              <br />
+              <span className="text-blue-600">Automate Scheduling with Ease</span>
+            </h1>
+            <p className="text-lg mt-6 max-w-2xl text-gray-600">
+              Our advanced AI automates scheduling, reminders, and rescheduling,
+              simplifying appointment management and enhancing customer satisfaction.
+            </p>
+            <div className="mt-10 flex justify-center lg:justify-start gap-4">
+              <Link href="/book-a-call">
+                <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105">
+                  Contact Sales
+                </button>
+              </Link>
+              <Link href="/services">
+                <button className="bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 font-bold py-3 px-8 rounded-lg text-lg transition-colors">
+                  View Features
+                </button>
+              </Link>
+            </div>
+          </div>
+          <div className="relative">
+            <Image 
+              src="/images/royalty-free/meeting-7063199_1280.png" 
+              alt="Professional team meeting with AI technology" 
+              width={600} 
+              height={400} 
+              className="rounded-lg shadow-xl"
+            />
+          </div>
         </div>
       </section>
 
@@ -106,21 +119,21 @@ export default function Home() {
               author="Daniel Lefanov"
               role="Implementation Manager"
               company="Smartcat"
-              imageSrc="/images/lamar.jpg" // Placeholder
+              imageSrc="/images/royalty-free/pexels-pixabay-162583.jpg"
             />
             <TestimonialCard 
               text="The reduction in manual follow-up has freed up our sales team to focus on closing deals. Incredible ROI."
               author="Ryan"
               role="Sales Manager"
               company="SaaS Inc."
-              imageSrc="/images/ryan.jpg"
+              imageSrc="/images/royalty-free/pexels-karolina-grabowska-7195310.jpg"
             />
             <TestimonialCard 
               text="My appointment setting process used to be a pain. Now it's just easy and incredibly efficient."
               author="Lamar"
               role="CEO"
               company="Coaching Co."
-              imageSrc="/images/santiago.jpg" // Placeholder
+              imageSrc="/images/royalty-free/pexels-padrinan-1111369.jpg"
             />
           </div>
         </div>

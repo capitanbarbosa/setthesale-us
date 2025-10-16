@@ -24,8 +24,8 @@ const AboutPage3 = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <img 
-              src="/public/aboutus-images/About-Page-intro-pic.png" 
-              alt="Sales analytics dashboard" 
+              src="/images/royalty-free/pexels-padrinan-1111368.jpg" 
+              alt="Professional business analytics dashboard" 
               className="rounded-lg shadow-lg"
             />
           </div>
@@ -71,8 +71,8 @@ const AboutPage3 = () => {
           </div>
           <div>
             <img 
-              src="/public/aboutus-images/Imagen2.jpg" 
-              alt="Team collaboration" 
+              src="/images/royalty-free/christina-wocintechchat-com-vzfgh3RAPzM-unsplash.jpg" 
+              alt="Team collaboration and brainstorming" 
               className="rounded-lg shadow-lg"
             />
           </div>
@@ -144,7 +144,7 @@ const AboutPage3 = () => {
             <div className="text-center">
               <div className="w-48 h-48 mx-auto mb-6 rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="/public/images/santiago.jpg" 
+                  src="/images/royalty-free/pexels-pixabay-162583.jpg" 
                   alt="Francisco Davila" 
                   className="w-full h-full object-cover"
                 />
@@ -156,7 +156,7 @@ const AboutPage3 = () => {
             <div className="text-center">
               <div className="w-48 h-48 mx-auto mb-6 rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="/public/images/ryan.jpg" 
+                  src="/images/royalty-free/pexels-karolina-grabowska-7195310.jpg" 
                   alt="Sebastian Castro" 
                   className="w-full h-full object-cover"
                 />
@@ -168,7 +168,7 @@ const AboutPage3 = () => {
             <div className="text-center">
               <div className="w-48 h-48 mx-auto mb-6 rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="/public/images/lamar.jpg" 
+                  src="/images/royalty-free/pexels-padrinan-1111369.jpg" 
                   alt="Jessica Angel" 
                   className="w-full h-full object-cover"
                 />
@@ -203,8 +203,8 @@ const AboutPage3 = () => {
         <div className="absolute inset-0 bg-blue-900/20"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 opacity-20">
           <img 
-            src="/public/aboutus-images/CTA-About-new.png" 
-            alt="Office workspace" 
+            src="/images/royalty-free/snap1.png" 
+            alt="Modern office workspace" 
             className="w-full h-full object-cover rounded-tl-3xl"
           />
         </div>

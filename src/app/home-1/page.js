@@ -12,19 +12,32 @@ export default function Home() {
   return (
     <div className="bg-white text-gray-900">
       {/* Hero Section */}
-      <section className="text-center py-20 px-4 bg-white">
-        <h1 className="text-5xl font-bold text-gray-900">
-          AI Appointment Setter: Automate Scheduling with Ease
-        </h1>
-        <p className="text-xl mt-4 max-w-3xl mx-auto text-gray-600">
-          Synthflow's AI Appointment Setter automates scheduling, reminders, and rescheduling, 
-          simplifying appointment management and enhancing customer satisfaction while saving time.
-        </p>
-        <Link href="/book-a-call">
-          <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors">
-            Contact Sales
-          </button>
-        </Link>
+      <section className="relative overflow-hidden bg-white">
+        <div className="grid lg:grid-cols-2 gap-12 items-center py-20 px-4 max-w-7xl mx-auto">
+          <div className="text-center lg:text-left">
+            <h1 className="text-5xl font-bold text-gray-900">
+              AI Appointment Setter: Automate Scheduling with Ease
+            </h1>
+            <p className="text-xl mt-4 max-w-3xl text-gray-600">
+              Synthflow's AI Appointment Setter automates scheduling, reminders, and rescheduling, 
+              simplifying appointment management and enhancing customer satisfaction while saving time.
+            </p>
+            <Link href="/book-a-call">
+              <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors">
+                Contact Sales
+              </button>
+            </Link>
+          </div>
+          <div className="relative">
+            <Image 
+              src="/images/royalty-free/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg" 
+              alt="Modern office workspace with technology" 
+              width={600} 
+              height={400} 
+              className="rounded-lg shadow-xl"
+            />
+          </div>
+        </div>
       </section>
 
       {/* Company Logos */}
