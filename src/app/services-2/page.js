@@ -88,6 +88,21 @@ const ServicesPage2 = () => {
           </Link>
         </div>
       </section>
+
+      {/* CTA Section */}
+      <section className="text-center py-20 px-4 bg-white">
+        <h2 className="text-4xl font-bold max-w-2xl mx-auto text-blue-900">
+          Imagine Your Calendar Full of Sales-Ready Leads...
+        </h2>
+        <p className="text-xl mt-4 text-gray-600">
+          Let AI do the qualification. You do the closing.
+        </p>
+        <Link href="https://calendly.com/pachocripto/initial-consultation-companies" target="_blank" rel="noopener noreferrer">
+          <button className="mt-8 bg-gradient-to-r from-red-400 to-pink-500 text-white font-bold py-3 px-8 rounded-lg text-lg">
+            Book a Free Demo Call
+          </button>
+        </Link>
+      </section>
     </div>
   );
 };
