@@ -184,11 +184,11 @@ const HomePage3 = () => {
           <h2 className="text-3xl font-bold">
             Try The Outbound
             <br />
-            <span className="text-purple-600">WhatsApp Demo</span> Below
+            <span className="text-blue-600">WhatsApp Demo</span> Below
           </h2>
           <div className="mt-8 bg-white p-8 rounded-lg shadow-2xl border border-gray-200">
             <p className="font-semibold">
-              Receive an <span className="text-purple-600">instant follow up</span> from
+              Receive an <span className="text-blue-600">instant follow up</span> from
               our AI Setter
             </p>
             <form className="mt-6 space-y-4">
@@ -207,7 +207,7 @@ const HomePage3 = () => {
                 placeholder="Enter your WhatsApp Phone Number"
                 className="w-full p-3 border border-gray-300 rounded-lg"
               />
-              <button className="w-full bg-purple-600 text-white font-semibold py-3 rounded-lg shadow-lg hover:bg-purple-700 transition-colors">
+              <button className="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg shadow-lg hover:bg-blue-700 transition-colors">
                 Chat with Setter AI
               </button>
             </form>
@@ -222,7 +222,7 @@ const HomePage3 = () => {
             Here's how Setter AI books YOU more meetings in 4 simple steps.
           </h2>
           <div className="space-y-4">
-            <div className="p-4 border-l-4 border-purple-600 bg-white rounded-r-lg shadow">
+            <div className="p-4 border-l-4 border-blue-600 bg-white rounded-r-lg shadow">
               <h3 className="font-bold">Step 1: Instant Response (10 Seconds)</h3>
               <p className="text-gray-600">
                 Your lead gets a message in under 10 seconds. No delays. No
@@ -254,72 +254,72 @@ const HomePage3 = () => {
       {/* Book More Meetings... */}
       <section className="py-20 px-4 text-center">
         <h2 className="text-4xl font-bold">
-          Book More Meetings with <span className="text-purple-600">Conversational AI.</span>
+          Book More Meetings with <span className="text-blue-600">Conversational AI.</span>
         </h2>
         <div className="mt-12 grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="p-6">
-            <FaWhatsapp size={40} className="mx-auto text-purple-600" />
+            <FaWhatsapp size={40} className="mx-auto text-blue-600" />
             <h3 className="mt-4 font-bold text-xl">WhatsApp</h3>
             <p className="mt-2 text-gray-600">
               Use WhatsApp to turn leads into meetings on autopilot. Connect
               WhatsApp Business in just 5 mins.
             </p>
-            <a href="#" className="mt-4 inline-block text-purple-600 font-semibold">
+            <a href="#" className="mt-4 inline-block text-blue-600 font-semibold">
               Get Started →
             </a>
           </div>
           <div className="p-6">
-            <FiMessageSquare size={40} className="mx-auto text-purple-600" />
+            <FiMessageSquare size={40} className="mx-auto text-blue-600" />
             <h3 className="mt-4 font-bold text-xl">Text</h3>
             <p className="mt-2 text-gray-600">
               Automate text responses via SMS. Turn more inbound appointments
               effortlessly using conversational booking.
             </p>
-            <a href="#" className="mt-4 inline-block text-purple-600 font-semibold">
+            <a href="#" className="mt-4 inline-block text-blue-600 font-semibold">
               Get Started →
             </a>
           </div>
           <div className="p-6">
-            <FiZap size={40} className="mx-auto text-purple-600" />
+            <FiZap size={40} className="mx-auto text-blue-600" />
             <h3 className="mt-4 font-bold text-xl">Website Embed</h3>
             <p className="mt-2 text-gray-600">
               Add a lead generation chatbot to your website. Respond to every
               lead in a matter of seconds and book more meetings.
             </p>
-            <a href="#" className="mt-4 inline-block text-purple-600 font-semibold">
+            <a href="#" className="mt-4 inline-block text-blue-600 font-semibold">
               Get Started →
             </a>
           </div>
           <div className="p-6">
-            <FaFacebook size={40} className="mx-auto text-purple-600" />
+            <FaFacebook size={40} className="mx-auto text-blue-600" />
             <h3 className="mt-4 font-bold text-xl">Facebook Messenger</h3>
             <p className="mt-2 text-gray-600">
               Automate conversations on Facebook Messenger. Respond to
               messenger ads and book more meetings.
             </p>
-            <a href="#" className="mt-4 inline-block text-purple-600 font-semibold">
+            <a href="#" className="mt-4 inline-block text-blue-600 font-semibold">
               Learn More →
             </a>
           </div>
           <div className="p-6">
-            <FaInstagram size={40} className="mx-auto text-purple-600" />
+            <FaInstagram size={40} className="mx-auto text-blue-600" />
             <h3 className="mt-4 font-bold text-xl">Instagram</h3>
             <p className="mt-2 text-gray-600">
               Automate lead generation on Instagram. Turn comments, replies,
               and DMs into booked appointments instantly.
             </p>
-            <a href="#" className="mt-4 inline-block text-purple-600 font-semibold">
+            <a href="#" className="mt-4 inline-block text-blue-600 font-semibold">
               Learn More →
             </a>
           </div>
           <div className="p-6">
-            <FaLinkedin size={40} className="mx-auto text-purple-600" />
+            <FaLinkedin size={40} className="mx-auto text-blue-600" />
             <h3 className="mt-4 font-bold text-xl">LinkedIn</h3>
             <p className="mt-2 text-gray-600">
               Automate lead generation on LinkedIn. Turn comments, messages,
               and community into booked meetings with AI.
             </p>
-            <a href="#" className="mt-4 inline-block text-purple-600 font-semibold">
+            <a href="#" className="mt-4 inline-block text-blue-600 font-semibold">
               Learn More →
             </a>
           </div>
@@ -347,12 +347,12 @@ const HomePage3 = () => {
             className="rounded-lg shadow-2xl"
           />
            <div className="absolute inset-0 flex items-center justify-center">
-            <button className="bg-purple-600 p-4 rounded-full text-white shadow-lg">
+            <button className="bg-blue-600 p-4 rounded-full text-white shadow-lg">
               <FaPlay className="w-8 h-8" />
             </button>
           </div>
         </div>
-        <button className="mt-8 bg-purple-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-purple-700 transition-colors">
+        <button className="mt-8 bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition-colors">
           Get me a demo
         </button>
       </section>
