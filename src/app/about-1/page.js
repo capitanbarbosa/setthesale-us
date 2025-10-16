@@ -6,7 +6,7 @@ const AboutPage = () => {
     <div className="bg-gray-900 text-white">
       {/* Hero Section */}
       <section className="text-center py-20 px-4 bg-gray-900">
-        <h1 className="text-5xl font-bold text-purple-400">About Us</h1>
+        <h1 className="text-5xl font-bold text-blue-400">About Us</h1>
         <p className="text-xl mt-4 max-w-3xl mx-auto text-gray-300">
           We are the architects of the future of sales. We blend AI-driven precision with human ingenuity to create a sales engine that never sleeps.
         </p>
@@ -60,7 +60,7 @@ const AboutPage = () => {
                 className="rounded-full mx-auto mb-4"
               />
               <h3 className="text-2xl font-bold text-white">Francisco Ovalle</h3>
-              <p className="text-purple-400">Founder</p>
+              <p className="text-blue-400">Founder</p>
             </div>
             <div className="bg-gray-900 p-6 rounded-lg text-center">
               <Image
@@ -71,7 +71,7 @@ const AboutPage = () => {
                 className="rounded-full mx-auto mb-4"
               />
               <h3 className="text-2xl font-bold text-white">Sebastian Castro</h3>
-              <p className="text-purple-400">Head of Growth</p>
+              <p className="text-blue-400">Head of Growth</p>
             </div>
             <div className="bg-gray-900 p-6 rounded-lg text-center">
               <Image
@@ -82,19 +82,19 @@ const AboutPage = () => {
                 className="rounded-full mx-auto mb-4"
               />
               <h3 className="text-2xl font-bold text-white">Juanita Angel</h3>
-              <p className="text-purple-400">Head of Marketing</p>
+              <p className="text-blue-400">Head of Marketing</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="text-center py-20 px-4 bg-purple-800 bg-opacity-20">
+      <section className="text-center py-20 px-4 bg-blue-800 bg-opacity-20">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold">Ready to Revolutionize Your Sales?</h2>
           <p className="text-xl mt-4 text-gray-300">Let's build the future of your sales pipeline, together.</p>
           <Link href="/book-a-call">
-            <button className="mt-8 bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors">
+            <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors">
               Book a Free Demo
             </button>
           </Link>

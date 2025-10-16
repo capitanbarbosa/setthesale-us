@@ -4,7 +4,7 @@ const BookCallPage2 = () => {
   return (
     <div className="bg-white text-gray-800">
       <section className="text-center py-20 px-4 bg-gray-50">
-        <h1 className="text-5xl font-bold text-purple-600">
+        <h1 className="text-5xl font-bold text-blue-600">
           Book a Free Growth Audit
         </h1>
         <p className="text-xl mt-4 max-w-2xl mx-auto text-gray-600">

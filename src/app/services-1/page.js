@@ -32,7 +32,7 @@ const ServicesPage1 = () => {
     <div className="bg-gray-900 text-white">
       {/* Hero Section */}
       <section className="text-center py-20 px-4">
-        <h1 className="text-5xl font-bold text-purple-400">Our Services</h1>
+        <h1 className="text-5xl font-bold text-blue-400">Our Services</h1>
         <p className="text-xl mt-4 max-w-3xl mx-auto text-gray-300">
           We blend into your sales ops, up to half of the cost! A step-by-step
           roadmap to success. Smarter Sales Starts with Smarter Qualification.
@@ -58,9 +58,9 @@ const ServicesPage1 = () => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-purple-500/20 transform hover:-translate-y-1 transition-all duration-300"
+                className="bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-blue-500/20 transform hover:-translate-y-1 transition-all duration-300"
               >
-                <h3 className="text-2xl font-bold text-purple-400">
+                <h3 className="text-2xl font-bold text-blue-400">
                   {service.title}
                 </h3>
                 <p className="mt-4 text-gray-300">{service.description}</p>
@@ -82,7 +82,7 @@ const ServicesPage1 = () => {
           </p>
           <Link
             href="/book-a-call-1"
-            className="mt-8 inline-block bg-purple-600 text-white font-bold py-4 px-8 rounded-lg text-lg hover:bg-purple-700 transition-colors"
+            className="mt-8 inline-block bg-blue-600 text-white font-bold py-4 px-8 rounded-lg text-lg hover:bg-blue-700 transition-colors"
           >
             Book a Free Growth Audit
           </Link>

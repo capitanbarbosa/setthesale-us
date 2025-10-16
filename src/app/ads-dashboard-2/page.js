@@ -178,7 +178,7 @@ const AdsDashboard = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border">
               <h3 className="text-sm font-medium text-gray-500">Total Estimated Spend</h3>
-              <p className="text-3xl font-bold text-purple-600 mt-2">
+              <p className="text-3xl font-bold text-blue-600 mt-2">
                 ${filteredAds.reduce((acc, ad) => acc + parseInt(ad.spend_estimate.replace(/[$,]/g, '')), 0).toLocaleString()}
               </p>
             </div>
@@ -260,12 +260,12 @@ const AdsDashboard = () => {
               </p>
               <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">92% success rate</span>
             </div>
-            <div className="p-6 bg-purple-50 rounded-lg border">
-              <h3 className="font-semibold text-purple-900 mb-3">Time-Based Urgency</h3>
+            <div className="p-6 bg-blue-50 rounded-lg border">
+              <h3 className="font-semibold text-blue-900 mb-3">Time-Based Urgency</h3>
               <p className="text-sm text-gray-600 mb-3">
                 "From cold leads to hot appointments in 24 hours"
               </p>
-              <span className="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded">High engagement</span>
+              <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">High engagement</span>
             </div>
             <div className="p-6 bg-yellow-50 rounded-lg border">
               <h3 className="font-semibold text-yellow-900 mb-3">Social Proof Pattern</h3>

@@ -7,7 +7,7 @@ const AboutPage = () => {
       {/* Hero Section */}
       <section className="text-center py-24 px-4 bg-white">
         <h1 className="text-6xl font-extrabold text-gray-900 leading-tight">
-          About <span className="text-purple-600">Set the Sale</span>
+          About <span className="text-blue-600">Set the Sale</span>
         </h1>
         <p className="text-lg mt-6 max-w-3xl mx-auto text-gray-600">
           We are a team of innovators, strategists, and sales experts dedicated to redefining how businesses grow. We believe in the power of technology to augment human potential.
@@ -44,7 +44,7 @@ const AboutPage = () => {
           <h2 className="text-4xl font-bold text-gray-900 mb-16">Our Core Values</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="text-center">
-              <div className="bg-purple-100 text-purple-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 {/* Icon for Results */}
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
               </div>
@@ -52,7 +52,7 @@ const AboutPage = () => {
               <p className="text-gray-600">We measure our success by the success of our clients. Outcomes are everything.</p>
             </div>
             <div className="text-center">
-              <div className="bg-purple-100 text-purple-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 {/* Icon for Partnership */}
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M15 21a6 6 0 00-9-5.197M15 21a6 6 0 006-5.197M12 15a4 4 0 110-8 4 4 0 010 8z" /></svg>
               </div>
@@ -60,7 +60,7 @@ const AboutPage = () => {
               <p className="text-gray-600">We work as an extension of your team, deeply invested in your goals and growth.</p>
             </div>
             <div className="text-center">
-              <div className="bg-purple-100 text-purple-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 {/* Icon for Innovation */}
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.636-6.364l.707-.707M12 21v-1m-6.364-1.636l.707-.707M6.343 6.343l-.707-.707" /></svg>
               </div>
@@ -85,7 +85,7 @@ const AboutPage = () => {
                 className="rounded-full mx-auto mb-4"
               />
               <h3 className="text-2xl font-bold text-gray-900">Francisco Ovalle</h3>
-              <p className="text-purple-600 font-semibold">Founder</p>
+              <p className="text-blue-600 font-semibold">Founder</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg text-center">
               <Image
@@ -96,7 +96,7 @@ const AboutPage = () => {
                 className="rounded-full mx-auto mb-4"
               />
               <h3 className="text-2xl font-bold text-gray-900">Sebastian Castro</h3>
-              <p className="text-purple-600 font-semibold">Head of Growth</p>
+              <p className="text-blue-600 font-semibold">Head of Growth</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg text-center">
               <Image
@@ -107,7 +107,7 @@ const AboutPage = () => {
                 className="rounded-full mx-auto mb-4"
               />
               <h3 className="text-2xl font-bold text-gray-900">Juanita Angel</h3>
-              <p className="text-purple-600 font-semibold">Head of Marketing</p>
+              <p className="text-blue-600 font-semibold">Head of Marketing</p>
             </div>
           </div>
         </div>
@@ -115,13 +115,13 @@ const AboutPage = () => {
 
       {/* CTA Section */}
       <section className="py-24 px-4 bg-white">
-        <div className="container mx-auto text-center bg-purple-600 text-white p-16 rounded-2xl shadow-2xl">
+        <div className="container mx-auto text-center bg-blue-600 text-white p-16 rounded-2xl shadow-2xl">
           <h2 className="text-4xl font-bold">Ready to Become Future-Proof?</h2>
-          <p className="text-xl mt-4 max-w-3xl mx-auto text-purple-100">
+          <p className="text-xl mt-4 max-w-3xl mx-auto text-blue-100">
             Let's have a conversation about how we can elevate your sales process.
           </p>
           <Link href="/book-a-call">
-            <button className="mt-8 bg-white hover:bg-gray-100 text-purple-600 font-bold py-4 px-10 rounded-lg text-lg transition-colors">
+            <button className="mt-8 bg-white hover:bg-gray-100 text-blue-600 font-bold py-4 px-10 rounded-lg text-lg transition-colors">
               Schedule a Consultation
             </button>
           </Link>
