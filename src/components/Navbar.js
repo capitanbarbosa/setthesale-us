@@ -29,7 +29,7 @@ const NavItem = ({ item, closeMenu }) => {
                 <Link
                   href={item.href}
                   className={`${
-                    active ? "bg-violet-500 text-black" : "text-gray-900"
+                    active ? "bg-blue-600 text-white" : "text-gray-900"
                   } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                   onClick={closeMenu}
                 >
@@ -43,7 +43,7 @@ const NavItem = ({ item, closeMenu }) => {
                   <Link
                     href={subItem.href}
                     className={`${
-                      active ? "bg-violet-500 text-black" : "text-gray-900"
+                      active ? "bg-blue-600 text-white" : "text-gray-900"
                     } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                     onClick={closeMenu}
                   >
