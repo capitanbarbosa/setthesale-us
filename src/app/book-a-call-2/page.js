@@ -1,16 +1,32 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const BookCallPage2 = () => {
   return (
     <div className="bg-white text-gray-800">
-      <section className="text-center py-20 px-4 bg-gray-50">
-        <h1 className="text-5xl font-bold text-blue-600">
-          Book a Free Growth Audit
-        </h1>
-        <p className="text-xl mt-4 max-w-2xl mx-auto text-gray-600">
-          Ready to see how AI can fill your sales pipeline? Schedule a free,
-          no-obligation growth audit with our team.
-        </p>
+      <section className="relative text-center py-24 px-4 overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="/images/royalty-free/pexels-karolina-grabowska-7195310.jpg" 
+            alt="Professional business consultation" 
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-white/88"></div>
+        </div>
+        
+        {/* Content */}
+        <div className="relative z-10">
+          <h1 className="text-5xl font-bold text-blue-600">
+            Book a Free Growth Audit
+          </h1>
+          <p className="text-xl mt-4 max-w-2xl mx-auto text-gray-600">
+            Ready to see how AI can fill your sales pipeline? Schedule a free,
+            no-obligation growth audit with our team.
+          </p>
+        </div>
       </section>
 
       <section className="py-10 px-4 bg-white">

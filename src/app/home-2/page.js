@@ -28,39 +28,41 @@ export default function Home() {
   return (
     <div className="bg-gray-50 text-gray-800">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-white">
-        <div className="grid lg:grid-cols-2 gap-12 items-center py-24 px-4 max-w-7xl mx-auto">
-          <div className="text-center lg:text-left">
-            <h1 className="text-6xl font-extrabold text-gray-900 leading-tight">
-              AI Appointment Setter:
-              <br />
-              <span className="text-blue-600">Automate Scheduling with Ease</span>
-            </h1>
-            <p className="text-lg mt-6 max-w-2xl text-gray-600">
-              Our advanced AI automates scheduling, reminders, and rescheduling,
-              simplifying appointment management and enhancing customer satisfaction.
-            </p>
-            <div className="mt-10 flex justify-center lg:justify-start gap-4">
-              <Link href="/book-a-call">
-                <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105">
-                  Contact Sales
-                </button>
-              </Link>
-              <Link href="/services">
-                <button className="bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 font-bold py-3 px-8 rounded-lg text-lg transition-colors">
-                  View Features
-                </button>
-              </Link>
-            </div>
-          </div>
-          <div className="relative">
-            <Image 
-              src="/images/royalty-free/meeting-7063199_1280.png" 
-              alt="Professional team meeting with AI technology" 
-              width={600} 
-              height={400} 
-              className="rounded-lg shadow-xl"
-            />
+      <section className="relative text-center py-32 px-4 overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="/images/royalty-free/meeting-7063199_1280.png" 
+            alt="Professional team meeting with AI technology" 
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-white/85"></div>
+        </div>
+        
+        {/* Content */}
+        <div className="relative z-10 max-w-4xl mx-auto">
+          <h1 className="text-6xl font-extrabold text-gray-900 leading-tight">
+            AI Appointment Setter:
+            <br />
+            <span className="text-blue-600">Automate Scheduling with Ease</span>
+          </h1>
+          <p className="text-lg mt-6 max-w-2xl mx-auto text-gray-600">
+            Our advanced AI automates scheduling, reminders, and rescheduling,
+            simplifying appointment management and enhancing customer satisfaction.
+          </p>
+          <div className="mt-10 flex justify-center gap-4">
+            <Link href="/book-a-call">
+              <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105 shadow-lg">
+                Contact Sales
+              </button>
+            </Link>
+            <Link href="/services">
+              <button className="bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 font-bold py-3 px-8 rounded-lg text-lg transition-colors shadow-md">
+                View Features
+              </button>
+            </Link>
           </div>
         </div>
       </section>
