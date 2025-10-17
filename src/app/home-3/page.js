@@ -37,31 +37,46 @@ const HomePage3 = () => {
   return (
     <div className="bg-white text-gray-800 font-sans">
       {/* Hero Section */}
-      <section className="text-center py-16 px-4">
-        <p className="text-blue-600 font-semibold">AI APPOINTMENT SETTER</p>
-        <h1 className="text-5xl md:text-6xl font-bold mt-4">
-          Never Miss a Lead Again.
-          <br />
-          Book <span className="text-blue-600">More Sales Calls.</span>
-        </h1>
-        <p className="text-lg text-gray-600 mt-6 max-w-2xl mx-auto">
-          Follow up leads in 10 seconds - with a 62% lead to booking rate.
-        </p>
-        <div className="mt-8 flex justify-center gap-4">
-          <button className="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition-colors">
-            Get Started
-          </button>
-          <button className="bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg border border-blue-600 hover:bg-blue-50 transition-colors">
-            Book a Demo
-          </button>
+      <section className="relative text-center py-24 px-4 overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="/images/royalty-free/pexels-alex-green-5699486.jpg" 
+            alt="Professional business background" 
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-white/95 via-white/90 to-white/85"></div>
         </div>
-        <p className="text-sm text-gray-500 mt-6">
-          The #1 AI lead response solution for businesses.
-        </p>
-        <div className="mt-8 flex justify-center items-center gap-8">
-          <Image src="/images/company-logo-1.svg" alt="Mindvalley" width={100} height={30} />
-          <Image src="/images/company-logo-2.svg" alt="Windesheim" width={100} height={30} />
-          <Image src="/images/company-logo-3.svg" alt="Intel" width={50} height={30} />
+        
+        {/* Content */}
+        <div className="relative z-10">
+          <p className="text-blue-600 font-semibold">AI APPOINTMENT SETTER</p>
+          <h1 className="text-5xl md:text-6xl font-bold mt-4">
+            Never Miss a Lead Again.
+            <br />
+            Book <span className="text-blue-600">More Sales Calls.</span>
+          </h1>
+          <p className="text-lg text-gray-700 mt-6 max-w-2xl mx-auto font-medium">
+            Follow up leads in 10 seconds - with a 62% lead to booking rate.
+          </p>
+          <div className="mt-8 flex justify-center gap-4">
+            <button className="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition-colors">
+              Get Started
+            </button>
+            <button className="bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition-colors shadow-md">
+              Book a Demo
+            </button>
+          </div>
+          <p className="text-sm text-gray-600 mt-6 font-medium">
+            The #1 AI lead response solution for businesses.
+          </p>
+          <div className="mt-8 flex justify-center items-center gap-8 opacity-70">
+            <Image src="/images/company-logo-1.svg" alt="Mindvalley" width={100} height={30} />
+            <Image src="/images/company-logo-2.svg" alt="Windesheim" width={100} height={30} />
+            <Image src="/images/company-logo-3.svg" alt="Intel" width={50} height={30} />
+          </div>
         </div>
         {/* <div className="mt-12 relative max-w-4xl mx-auto">
           <Image
