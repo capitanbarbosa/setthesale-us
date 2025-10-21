@@ -105,17 +105,20 @@ const ServicesPage = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 px-4 bg-blue-950 text-white">
+      <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-3xl">
-          <h2 className="text-3xl font-bold text-center mb-12">
-            We have great answers​ - Ask us anything
-          </h2>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              We Have Great Answers - Ask Us Anything
+            </h2>
+            <div className="w-16 h-1 bg-blue-600 mx-auto rounded-full"></div>
+          </div>
           <div className="space-y-4">
-            <details className="bg-blue-900 p-4 rounded-lg">
-              <summary className="font-semibold cursor-pointer">
+            <details className="bg-white border border-gray-200 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <summary className="font-semibold cursor-pointer text-gray-900 text-lg">
                 What exactly does Set the Sale do?
               </summary>
-              <p className="mt-2 text-gray-300">
+              <p className="mt-4 text-gray-600 leading-relaxed">
                 Set the Sale provides an AI-powered lead qualification service
                 that engages leads across multiple channels, qualifies them
                 24/7, and books appointments directly into your sales team's
@@ -123,55 +126,55 @@ const ServicesPage = () => {
                 Rep.
               </p>
             </details>
-            <details className="bg-blue-900 p-4 rounded-lg">
-              <summary className="font-semibold cursor-pointer">
+            <details className="bg-white border border-gray-200 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <summary className="font-semibold cursor-pointer text-gray-900 text-lg">
                 How is this different from a chatbot or a regular lead form?
               </summary>
-              <p className="mt-2 text-gray-300">
+              <p className="mt-4 text-gray-600 leading-relaxed">
                 Unlike simple chatbots, our system uses advanced AI to hold
                 intelligent, human-like conversations to deeply qualify leads
                 based on your criteria. It's a proactive, multi-channel
                 engagement system, not a passive form.
               </p>
             </details>
-            <details className="bg-blue-900 p-4 rounded-lg">
-              <summary className="font-semibold cursor-pointer">
+            <details className="bg-white border border-gray-200 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <summary className="font-semibold cursor-pointer text-gray-900 text-lg">
                 What kind of results can I expect?
               </summary>
-              <p className="mt-2 text-gray-300">
+              <p className="mt-4 text-gray-600 leading-relaxed">
                 Clients typically see a significant increase in qualified
                 appointments (up to 60%), a 70% reduction in time spent on
                 manual lead chasing, and a much faster lead response time, all
                 while saving on the overhead of hiring additional staff.
               </p>
             </details>
-            <details className="bg-blue-900 p-4 rounded-lg">
-              <summary className="font-semibold cursor-pointer">
+            <details className="bg-white border border-gray-200 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <summary className="font-semibold cursor-pointer text-gray-900 text-lg">
                 Will it work for my industry?
               </summary>
-              <p className="mt-2 text-gray-300">
+              <p className="mt-4 text-gray-600 leading-relaxed">
                 Our system is adaptable and has proven successful across various
                 industries, including SaaS, Real Estate, and Coaching. We tailor
                 the qualification criteria and conversation flows to fit your
                 specific business needs.
               </p>
             </details>
-            <details className="bg-blue-900 p-4 rounded-lg">
-              <summary className="font-semibold cursor-pointer">
+            <details className="bg-white border border-gray-200 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <summary className="font-semibold cursor-pointer text-gray-900 text-lg">
                 Do I need to know how to use AI or change my tech stack?
               </summary>
-              <p className="mt-2 text-gray-300">
+              <p className="mt-4 text-gray-600 leading-relaxed">
                 Not at all. We handle the entire setup. Our service is
                 plug-and-play and integrates seamlessly with your existing CRM
                 and sales tools. If you don't have a setup, we can even help
                 build one for you.
               </p>
             </details>
-            <details className="bg-blue-900 p-4 rounded-lg">
-              <summary className="font-semibold cursor-pointer">
+            <details className="bg-white border border-gray-200 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <summary className="font-semibold cursor-pointer text-gray-900 text-lg">
                 How fast can we launch?
               </summary>
-              <p className="mt-2 text-gray-300">
+              <p className="mt-4 text-gray-600 leading-relaxed">
                 Launch times can be very quick, often within a few days to a
                 week, depending on the complexity of your sales process and
                 integration needs. Our goal is to get you booking appointments
@@ -183,18 +186,27 @@ const ServicesPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="text-center py-20 px-4 bg-white">
-        <h2 className="text-4xl font-bold max-w-2xl mx-auto text-blue-900">
-          Imagine Your Calendar Full of Sales-Ready Leads...
-        </h2>
-        <p className="text-xl mt-4 text-gray-600">
-          Let AI do the qualification. You do the closing.
-        </p>
-        <Link href="https://calendly.com/pachocripto/initial-consultation-companies" target="_blank" rel="noopener noreferrer">
-          <button className="mt-8 bg-gradient-to-r from-red-400 to-pink-500 text-white font-bold py-3 px-8 rounded-lg text-lg">
-            Book a Free Demo Call
-          </button>
-        </Link>
+      <section className="relative text-center py-28 px-4 overflow-hidden">
+        {/* Professional Blue Gradient Background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800"></div>
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIwLjUiIG9wYWNpdHk9IjAuMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')]"></div>
+        
+        {/* Subtle accent */}
+        <div className="absolute top-0 right-1/4 w-96 h-96 bg-blue-400 rounded-full mix-blend-overlay filter blur-3xl opacity-20"></div>
+        
+        <div className="container mx-auto relative z-10">
+          <h2 className="text-4xl md:text-5xl font-bold max-w-2xl mx-auto text-white mb-6">
+            Imagine Your Calendar Full of Sales-Ready Leads...
+          </h2>
+          <p className="text-xl mt-6 text-blue-100 max-w-3xl mx-auto leading-relaxed">
+            Let AI do the qualification. You do the closing.
+          </p>
+          <Link href="https://calendly.com/pachocripto/initial-consultation-companies" target="_blank" rel="noopener noreferrer">
+            <button className="mt-12 bg-white text-blue-600 hover:bg-blue-50 font-bold py-4 px-12 rounded-lg text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform">
+              Book a Free Demo Call
+            </button>
+          </Link>
+        </div>
       </section>
     </div>
   );

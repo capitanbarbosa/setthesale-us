@@ -4,11 +4,11 @@ const ServicesPage1 = () => {
   const services = [
     {
       title: "Multi-Channel AI Engagement",
-      description: "We engage leads on every channel — so you’re first to respond.",
+      description: "We engage leads on every channel — so you're first to respond.",
     },
     {
       title: "AI Lead Qualification",
-      description: "We qualify your leads 24/7, so you don’t waste time on the wrong ones.",
+      description: "We qualify your leads 24/7, so you don't waste time on the wrong ones.",
     },
     {
       title: "Automated Appointment Setting",
@@ -29,41 +29,48 @@ const ServicesPage1 = () => {
   ];
 
   return (
-    <div className="bg-gray-900 text-white">
+    <div className="bg-white text-gray-900">
       {/* Hero Section */}
-      <section className="text-center py-20 px-4">
-        <h1 className="text-5xl font-bold text-blue-400">Our Services</h1>
-        <p className="text-xl mt-4 max-w-3xl mx-auto text-gray-300">
-          We blend into your sales ops, up to half of the cost! A step-by-step
-          roadmap to success. Smarter Sales Starts with Smarter Qualification.
-        </p>
-        <p className="text-lg mt-6 max-w-3xl mx-auto text-gray-400">
-          We combine AI automation, data, and psychology to replace the old way
-          of doing lead qualification — so you can scale pipeline without
-          scaling payroll.
-        </p>
+      <section className="text-center py-24 px-4 bg-gradient-to-b from-slate-50 to-white">
+        <div className="container mx-auto">
+          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+            Our <span className="text-blue-600">Services</span>
+          </h1>
+          <p className="text-xl mt-6 max-w-3xl mx-auto text-gray-600 leading-relaxed">
+            We blend into your sales ops, up to half of the cost! A step-by-step
+            roadmap to success. Smarter Sales Starts with Smarter Qualification.
+          </p>
+          <p className="text-lg mt-4 max-w-3xl mx-auto text-gray-500">
+            We combine AI automation, data, and psychology to replace the old way
+            of doing lead qualification — so you can scale pipeline without
+            scaling payroll.
+          </p>
+        </div>
       </section>
 
       {/* Services List Section */}
-      <section className="py-20 px-4 bg-gray-900">
+      <section className="py-24 px-4 bg-gray-50">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 text-white">
-            Appointment As A Service
-          </h2>
-          <p className="text-center text-xl max-w-2xl mx-auto text-gray-400 mb-16">
-            A fully managed, AI-powered sales development rep — without the
-            salary.
-          </p>
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Appointment As A Service
+            </h2>
+            <div className="w-16 h-1 bg-blue-600 mx-auto rounded-full mb-6"></div>
+            <p className="text-xl max-w-2xl mx-auto text-gray-600 leading-relaxed">
+              A fully managed, AI-powered sales development rep — without the
+              salary.
+            </p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-blue-500/20 transform hover:-translate-y-1 transition-all duration-300"
+                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl border border-gray-100 transform hover:-translate-y-1 transition-all duration-300"
               >
-                <h3 className="text-2xl font-bold text-blue-400">
+                <h3 className="text-2xl font-bold text-blue-600 mb-4">
                   {service.title}
                 </h3>
-                <p className="mt-4 text-gray-300">{service.description}</p>
+                <p className="text-gray-600 leading-relaxed">{service.description}</p>
               </div>
             ))}
           </div>
@@ -71,18 +78,25 @@ const ServicesPage1 = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 text-center bg-gray-800">
-        <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-white">
+      <section className="relative text-center py-28 px-4 overflow-hidden">
+        {/* Professional Blue Gradient Background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800"></div>
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIwLjUiIG9wYWNpdHk9IjAuMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')]"></div>
+        
+        {/* Subtle accent */}
+        <div className="absolute top-0 right-1/4 w-96 h-96 bg-blue-400 rounded-full mix-blend-overlay filter blur-3xl opacity-20"></div>
+        
+        <div className="container mx-auto relative z-10">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Ready to Automate Your Pipeline?
           </h2>
-          <p className="text-xl mt-4 max-w-2xl mx-auto text-gray-300">
+          <p className="text-xl mt-6 max-w-2xl mx-auto text-blue-100 leading-relaxed">
             Let us show you how our AI-powered services can revolutionize your
             sales process and drive unprecedented growth.
           </p>
           <Link
             href="/book-a-call-1"
-            className="mt-8 inline-block bg-blue-600 text-white font-bold py-4 px-8 rounded-lg text-lg hover:bg-blue-700 transition-colors"
+            className="mt-12 inline-block bg-white text-blue-600 hover:bg-blue-50 font-bold py-4 px-12 rounded-lg text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform"
           >
             Book a Free Growth Audit
           </Link>
