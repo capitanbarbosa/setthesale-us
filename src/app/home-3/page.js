@@ -47,7 +47,7 @@ const HomePage3 = () => {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-white/95 via-white/90 to-white/85"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-white/50 via-white/40 to-white/30"></div>
         </div>
         
         {/* Content */}
