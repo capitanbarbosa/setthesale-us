@@ -16,15 +16,15 @@ export default function Home() {
         <div className="grid lg:grid-cols-2 gap-12 items-center py-20 px-4 max-w-7xl mx-auto">
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold text-gray-900">
-              AI Appointment Setter: Automate Scheduling with Ease
+              Turn Leads Into Hot Sales Conversations — Automatically
             </h1>
             <p className="text-xl mt-4 max-w-3xl text-gray-600">
-              Synthflow's AI Appointment Setter automates scheduling, reminders, and rescheduling, 
-              simplifying appointment management and enhancing customer satisfaction while saving time.
+              Our AI-powered lead qualification books you more appointments —
+              without adding headcount or wasting time on unqualified leads.
             </p>
             <Link href="/book-a-call">
               <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors">
-                Contact Sales
+                Book Your Free Growth Audit
               </button>
             </Link>
           </div>
@@ -57,38 +57,38 @@ export default function Home() {
       {/* Features Section */}
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-2 text-blue-600">FEATURES</h2>
-          <h3 className="text-4xl font-bold text-center mb-12 text-gray-900">Why Choose Our AI Appointment Setter?</h3>
+          <h2 className="text-3xl font-bold text-center mb-2 text-blue-600">WHY SET THE SALE?</h2>
+          <h3 className="text-4xl font-bold text-center mb-12 text-gray-900">Stop Your Pipeline from Bleeding Money</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 shadow-sm">
-              <div className="mb-4"><FeatureIcon d="M12 6v6m0 0v6m0-6h6m-6 0H6" /></div>
-              <h4 className="text-2xl font-bold mb-2 text-gray-900">Quick & Easy Setup</h4>
-              <p className="text-gray-600">Connect the AI Appointment Setter with your tools quickly and get started right away. The process is user-friendly and requires no technical expertise.</p>
+              <div className="mb-4"><FeatureIcon d="M12 8c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3zM5 8c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3zm14 0c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3z" /></div>
+              <h4 className="text-2xl font-bold mb-2 text-gray-900">Focus on Qualified Leads</h4>
+              <p className="text-gray-600">Stop wasting 60% of your team's time. Our AI filters out the noise, so your reps only speak to prospects ready to buy.</p>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 shadow-sm">
               <div className="mb-4"><FeatureIcon d="M13 10V3L4 14h7v7l9-11h-7z" /></div>
-              <h4 className="text-2xl font-bold mb-2 text-gray-900">Cost-Effective Scaling</h4>
-              <p className="text-gray-600">Streamline scheduling without increasing overhead. By automating repetitive tasks, you can manage higher workloads without hiring additional staff.</p>
+              <h4 className="text-2xl font-bold mb-2 text-gray-900">Instant Response Times</h4>
+              <p className="text-gray-600">Engage leads in seconds, not hours. Our system ensures you're the first to respond, increasing qualified appointments by up to 60%.</p>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 shadow-sm">
-              <div className="mb-4"><FeatureIcon d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498A1 1 0 0119 15.72V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></div>
-              <h4 className="text-2xl font-bold mb-2 text-gray-900">Efficient Call Handling</h4>
-              <p className="text-gray-600">The AI efficiently handles bookings, cancellations, and reminders, ensuring smoother operations and saving time for your team.</p>
+              <div className="mb-4"><FeatureIcon d="M3 6l3 6h12l3-6H3zm16 12H5a2 2 0 01-2-2V8a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2z" /></div>
+              <h4 className="text-2xl font-bold mb-2 text-gray-900">Reduce Overhead Costs</h4>
+              <p className="text-gray-600">Achieve better results without expanding your team. Save up to $70k per year in salaries and overhead while boosting performance.</p>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 shadow-sm">
               <div className="mb-4"><FeatureIcon d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></div>
-              <h4 className="text-2xl font-bold mb-2 text-gray-900">24/7 Availability</h4>
-              <p className="text-gray-600">Customers can schedule or adjust appointments at any time. This ensures no opportunity is missed, and customers receive prompt responses to their requests.</p>
+              <h4 className="text-2xl font-bold mb-2 text-gray-900">Seamless Integration</h4>
+              <p className="text-gray-600">Our system plugs directly into your existing CRM and sales tools, creating a frictionless workflow for your entire team.</p>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 shadow-sm">
-              <div className="mb-4"><FeatureIcon d="M3 5h12M9 3v2m4 0v2M3 10h12M3 15h12M3 20h12" /></div>
-              <h4 className="text-2xl font-bold mb-2 text-gray-900">Customizable & Multilingual</h4>
-              <p className="text-gray-600">Easily adjust settings to suit your business needs. The system works with multiple languages and integrates with popular tools, providing a consistent experience for all users.</p>
+              <div className="mb-4"><FeatureIcon d="M4 7v10c0 2.21 1.79 4 4 4h8c2.21 0 4-1.79 4-4V7" /></div>
+              <h4 className="text-2xl font-bold mb-2 text-gray-900">Data-Driven Insights</h4>
+              <p className="text-gray-600">Get detailed analytics on lead engagement, qualification rates, and campaign performance to continuously optimize your sales funnel.</p>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 shadow-sm">
               <div className="mb-4"><FeatureIcon d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></div>
-              <h4 className="text-2xl font-bold mb-2 text-gray-900">User-Friendly Dashboard</h4>
-              <p className="text-gray-600">The dashboard allows you to monitor appointment activity, track interactions, and adjust workflows as needed.</p>
+              <h4 className="text-2xl font-bold mb-2 text-gray-900">Always-On Qualification</h4>
+              <p className="text-gray-600">Our AI works 24/7 to qualify leads, ensuring no opportunity is missed, regardless of time zones or business hours.</p>
             </div>
           </div>
         </div>
@@ -100,9 +100,9 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-12 text-gray-900">Hear What Our Users Are Saying</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
-              <p className="text-gray-600 mb-4">"Synthflow's Voice AI agents help us book more demos faster. We increased the conversion rates in the top of our lead pipeline, the number of contacts dialed by 217% and the number of answered calls, 24%."</p>
-              <p className="font-bold text-gray-900">- Daniel Lefanov</p>
-              <p className="text-sm text-blue-600">Implementation Manager, Smartcat</p>
+              <p className="text-gray-600 mb-4">"We saw a 60% increase in qualified appointments within the first month. Set The Sale is a game-changer for our sales pipeline."</p>
+              <p className="font-bold text-gray-900">- Santiago</p>
+              <p className="text-sm text-blue-600">Head of Sales - Tech Corp</p>
             </div>
             <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
               <p className="text-gray-600 mb-4">"We managed to beat our quarterly quota by 15% for 3 quarters in a row with Set The Sale."</p>
@@ -110,7 +110,7 @@ export default function Home() {
               <p className="text-sm text-blue-600">Sales Manager - SaaS</p>
             </div>
             <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
-              <p className="text-gray-600 mb-4">"My appointment setting process used to be a pain in the ass. Now it's just easy."</p>
+              <p className="text-gray-600 mb-4">"My appointment setting process used to be a pain. Now it's just easy. Our reps are happier and more productive."</p>
               <p className="font-bold text-gray-900">- Lamar</p>
               <p className="text-sm text-blue-600">CEO - Coaching</p>
             </div>
@@ -121,11 +121,11 @@ export default function Home() {
       {/* Final CTA Section */}
       <section className="text-center py-20 px-4 bg-gradient-to-r from-blue-50 to-gray-100">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900">Managing Over 20K Minutes of Calls Monthly?</h2>
-          <p className="text-xl mt-4 text-gray-600">Dive deeper with our experts to learn how Voice AI can scale your customer service operations and deliver ROI around the clock.</p>
+          <h2 className="text-4xl font-bold text-gray-900">Ready to Stop Wasting Time and Start Closing Deals?</h2>
+          <p className="text-xl mt-4 text-gray-600">Book a free growth audit and discover how our AI-powered qualification can fill your pipeline with sales-ready leads.</p>
           <Link href="/book-a-call">
             <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors">
-              Contact Sales
+              Book Your Free Growth Audit
             </button>
           </Link>
         </div>
