@@ -44,23 +44,23 @@ export default function Home() {
         {/* Content */}
         <div className="relative z-10 max-w-4xl mx-auto">
           <h1 className="text-6xl font-extrabold text-gray-900 leading-tight">
-            AI Appointment Setter:
+            Turn Leads Into Hot Sales Conversations —
             <br />
-            <span className="text-blue-600">Automate Scheduling with Ease</span>
+            <span className="text-blue-600">Automatically</span>
           </h1>
           <p className="text-lg mt-6 max-w-2xl mx-auto text-gray-600">
-            Our advanced AI automates scheduling, reminders, and rescheduling,
-            simplifying appointment management and enhancing customer satisfaction.
+            AI-Powered Lead Qualification That Books You More Appointments —
+            Without Adding Headcount or Wasting Time.
           </p>
           <div className="mt-10 flex justify-center gap-4">
             <Link href="/book-a-call">
               <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105 shadow-lg">
-                Contact Sales
+                Book Your Free Growth Audit
               </button>
             </Link>
             <Link href="/services">
               <button className="bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 font-bold py-3 px-8 rounded-lg text-lg transition-colors shadow-md">
-                View Features
+                View Our Services
               </button>
             </Link>
           </div>
@@ -85,24 +85,24 @@ export default function Home() {
       <section className="py-24 px-4 bg-white">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <p className="text-blue-600 font-semibold">FEATURES</p>
-            <h2 className="text-4xl font-bold text-gray-900 mt-2">Why Choose Our AI Appointment Setter?</h2>
+            <p className="text-blue-600 font-semibold">WHY SET THE SALE?</p>
+            <h2 className="text-4xl font-bold text-gray-900 mt-2">Smart Companies Don't Waste Time on Dead Leads</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             <div className="text-center p-6">
-              <FeatureIcon d="M12 6v6m0 0v6m0-6h6m-6 0H6" className="mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Quick & Easy Setup</h3>
-              <p className="text-gray-600">Get started in minutes. Our user-friendly process requires no technical expertise.</p>
+              <FeatureIcon d="M12 8c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3z" className="mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-2">Qualified Leads Only</h3>
+              <p className="text-gray-600">Our AI filters out unqualified prospects so your team focuses on hot leads ready to buy.</p>
             </div>
             <div className="text-center p-6">
               <FeatureIcon d="M13 10V3L4 14h7v7l9-11h-7z" className="mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Cost-Effective Scaling</h3>
-              <p className="text-gray-600">Automate repetitive tasks and manage higher workloads without increasing overhead.</p>
+              <h3 className="text-xl font-bold mb-2">Lightning-Fast Response</h3>
+              <p className="text-gray-600">Engage leads in seconds with 300% faster response times, increasing conversions by up to 60%.</p>
             </div>
             <div className="text-center p-6">
-              <FeatureIcon d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498A1 1 0 0119 15.72V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" className="mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Efficient Call Handling</h3>
-              <p className="text-gray-600">Our AI handles bookings, cancellations, and reminders, saving your team valuable time.</p>
+              <FeatureIcon d="M12 8c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-7 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm14 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2z" className="mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-2">Save Up to $70K/Year</h3>
+              <p className="text-gray-600">Reduce SDR hours by 70% and slash overhead costs while boosting appointment quality.</p>
             </div>
           </div>
         </div>
@@ -117,25 +117,25 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <TestimonialCard 
-              text="We increased our qualified appointments by 60% in the first quarter. It's a game-changer."
-              author="Daniel Lefanov"
-              role="Implementation Manager"
-              company="Smartcat"
-              imageSrc="/images/royalty-free/pexels-pixabay-162583.jpg"
+              text="We saw a 60% increase in qualified appointments within the first month. Set The Sale transformed our pipeline."
+              author="Santiago"
+              role="Head of Sales"
+              company="Tech Corp"
+              imageSrc="/images/santiago.jpg"
             />
             <TestimonialCard 
-              text="The reduction in manual follow-up has freed up our sales team to focus on closing deals. Incredible ROI."
+              text="We managed to beat our quarterly quota by 15% for 3 quarters in a row with Set The Sale."
               author="Ryan"
               role="Sales Manager"
-              company="SaaS Inc."
-              imageSrc="/images/royalty-free/pexels-karolina-grabowska-7195310.jpg"
+              company="SaaS"
+              imageSrc="/images/ryan.jpg"
             />
             <TestimonialCard 
-              text="My appointment setting process used to be a pain. Now it's just easy and incredibly efficient."
+              text="My appointment setting process used to be a pain. Now it's just easy and our team is more productive."
               author="Lamar"
               role="CEO"
-              company="Coaching Co."
-              imageSrc="/images/royalty-free/pexels-padrinan-1111369.jpg"
+              company="Coaching"
+              imageSrc="/images/lamar.jpg"
             />
           </div>
         </div>
@@ -144,13 +144,13 @@ export default function Home() {
       {/* Final CTA Section */}
       <section className="py-24 px-4 bg-white">
         <div className="container mx-auto text-center bg-blue-600 text-white p-16 rounded-2xl shadow-2xl">
-          <h2 className="text-4xl font-bold">Managing Over 20K Minutes of Calls Monthly?</h2>
+          <h2 className="text-4xl font-bold">Ready to Stop Wasting Time on Dead Leads?</h2>
           <p className="text-xl mt-4 max-w-3xl mx-auto text-blue-100">
-            Let our experts show you how Voice AI can scale your customer service operations and deliver ROI around the clock.
+            Book a free growth audit and discover how our AI qualification system can fill your pipeline with sales-ready appointments.
           </p>
           <Link href="/book-a-call">
             <button className="mt-8 bg-white hover:bg-gray-100 text-blue-600 font-bold py-4 px-10 rounded-lg text-lg transition-colors">
-              Contact Sales
+              Book Your Free Growth Audit
             </button>
           </Link>
         </div>
