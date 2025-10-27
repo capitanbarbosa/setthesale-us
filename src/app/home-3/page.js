@@ -12,22 +12,22 @@ const HomePage3 = () => {
   };
 
   const faqs = [
-    "How does Setter AI work?",
-    "What can Setter AI do for my business?",
-    "Does Setter AI work inbound or outbound?",
-    "Can Setter AI follow up with my leads?",
-    "What is the pricing for Setter AI?",
-    "Can I customize the AI's personality?",
-    "Can I connect Setter AI to WhatsApp?",
-    "Will it work with our current lead sources (Meta ads, etc.)?",
+    "How does Set The Sale work?",
+    "What can Set The Sale do for my business?",
+    "Does Set The Sale work for inbound or outbound leads?",
+    "Can Set The Sale follow up with my leads automatically?",
+    "What is the pricing for Set The Sale?",
+    "Can I customize the AI's responses?",
+    "Can I connect Set The Sale to WhatsApp?",
+    "Will it work with our current lead sources (Meta ads, Google, etc.)?",
     "We want exclusivity in our market.",
     "We already have a call center / SDR team.",
     "Will it break our CRM / lead flow?",
     "We don't want another tool to manage.",
-    "How do I embed the WhatsApp Link on my website?",
-    "Does Setter AI integrate with GoHighLevel?",
-    "Does Setter AI integrate with Hubspot?",
-    "Does Setter AI speak French?",
+    "How do I integrate it with my website?",
+    "Does Set The Sale integrate with GoHighLevel?",
+    "Does Set The Sale integrate with Hubspot?",
+    "Does Set The Sale support multiple languages?",
     "How do I connect my lead forms?",
     "Which languages do you support?",
     "How much effort is required from my side?",
@@ -52,14 +52,14 @@ const HomePage3 = () => {
         
         {/* Content */}
         <div className="relative z-10">
-          <p className="text-blue-600 font-semibold">AI APPOINTMENT SETTER</p>
+          <p className="text-blue-600 font-semibold">AI-POWERED LEAD QUALIFICATION</p>
           <h1 className="text-5xl md:text-6xl font-bold mt-4">
             Never Miss a Lead Again.
             <br />
             Book <span className="text-blue-600">More Sales Calls.</span>
           </h1>
           <p className="text-lg text-gray-700 mt-6 max-w-2xl mx-auto font-medium">
-            Follow up leads in 10 seconds - with a 62% lead to booking rate.
+            Follow up leads in 10 seconds - with up to 62% lead to booking rate.
           </p>
           <div className="mt-8 flex justify-center gap-4">
             <button className="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition-colors">
@@ -70,7 +70,7 @@ const HomePage3 = () => {
             </button>
           </div>
           <p className="text-sm text-gray-600 mt-6 font-medium">
-            The #1 AI lead response solution for businesses.
+            The #1 AI lead qualification solution for businesses.
           </p>
           <div className="mt-8 flex justify-center items-center gap-8 opacity-70">
             <Image src="/images/company-logo-1.svg" alt="Mindvalley" width={100} height={30} />
@@ -106,14 +106,14 @@ const HomePage3 = () => {
         </p>
       </section>
 
-      {/* Setter AI is the fastest way... */}
+      {/* Set The Sale is the fastest way... */}
       <section className="py-20 px-4">
         <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold">
-              Setter AI is the{" "}
+              Set The Sale is the{" "}
               <span className="text-blue-600">fastest</span> way to turn
-              leads into sales calls for businesses.
+              leads into qualified sales calls.
             </h2>
             <button className="mt-6 bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition-colors">
               Get Started
@@ -122,17 +122,17 @@ const HomePage3 = () => {
           <div className="text-center">
             <p className="text-8xl font-bold text-blue-600">10s</p>
             <p className="text-gray-600 mt-2">
-              Setter AI follow up with your leads in just 10 seconds.
+              Set The Sale follows up with your leads in just 10 seconds.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Setter AI requires zero change... */}
+      {/* Set The Sale requires zero change... */}
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold">
-            Setter AI requires <span className="text-blue-600">zero change</span> to
+            Set The Sale requires <span className="text-blue-600">zero change</span> to
             your business.
           </h2>
           <div className="mt-10 flex flex-wrap justify-center items-center gap-8">
@@ -204,7 +204,7 @@ const HomePage3 = () => {
           <div className="mt-8 bg-white p-8 rounded-lg shadow-2xl border border-gray-200">
             <p className="font-semibold">
               Receive an <span className="text-blue-600">instant follow up</span> from
-              our AI Setter
+              our AI system
             </p>
             <form className="mt-6 space-y-4">
               <input
@@ -223,18 +223,18 @@ const HomePage3 = () => {
                 className="w-full p-3 border border-gray-300 rounded-lg"
               />
               <button className="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg shadow-lg hover:bg-blue-700 transition-colors">
-                Chat with Setter AI
+                Try Set The Sale AI
               </button>
             </form>
           </div>
         </div>
       </section>
 
-      {/* How Setter AI books... */}
+      {/* How Set The Sale books... */}
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
           <h2 className="text-4xl font-bold">
-            Here's how Setter AI books YOU more meetings in 4 simple steps.
+            Here's how Set The Sale books YOU more meetings in 4 simple steps.
           </h2>
           <div className="space-y-4">
             <div className="p-4 border-l-4 border-blue-600 bg-white rounded-r-lg shadow">
