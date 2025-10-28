@@ -19,7 +19,7 @@ const AboutPage = () => {
             About <span className="text-blue-600">Set the Sale</span>
           </h1>
           <p className="text-xl mt-6 max-w-3xl mx-auto text-gray-600 leading-relaxed">
-            We are the architects of the future of sales. We blend AI-driven precision with human ingenuity to create a sales engine that never sleeps.
+            We don't just cut costs — we engineer qualified conversations that actually convert.
           </p>
         </div>
       </section>
@@ -33,22 +33,25 @@ const AboutPage = () => {
           <div className="space-y-6">
             <div className="inline-block">
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                Beyond Sales: Our Story
+                Beyond Sales
               </h2>
               <div className="w-16 h-1 bg-blue-600 rounded-full"></div>
             </div>
             <p className="text-lg text-gray-600 leading-relaxed">
-              In a world full of overhyped tools and empty sales promises, Set the Sale was founded to engineer qualified conversations that actually convert. We don't just cut costs; we build revenue.
+              In a world full of overhyped tools and empty sales promises, Set the Sale doesn't just cut costs — we engineer qualified conversations that actually convert.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Our end-to-end system uses AI and proven strategy to align with your business goals — from identifying high-intent leads to booking appointments with buyers who are ready to talk. This isn't just automation. It's a smarter, faster pipeline.
+              Our end-to-end system uses AI and proven strategy to align with your business goals — from identifying high-intent leads, qualifying them in real time, and booking appointments with buyers who are ready to talk.
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              This isn't just automation. It's a smarter, faster pipeline — built for real revenue, not just activity.
             </p>
           </div>
           <div className="relative group">
             <div className="absolute -inset-1 bg-blue-600/10 rounded-2xl group-hover:bg-blue-600/20 transition duration-500"></div>
             <Image
               src="/aboutus-images/Post-1.png"
-              alt="Our Story"
+              alt="Beyond sales"
               width={500}
               height={400}
               className="relative rounded-2xl shadow-xl transform group-hover:scale-[1.02] transition duration-500"
@@ -65,12 +68,18 @@ const AboutPage = () => {
         <div className="container mx-auto text-center relative z-10">
           <div className="inline-block mb-8">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Our Mission
+              Digital Empowerment
             </h2>
             <div className="w-16 h-1 bg-blue-600 rounded-full mx-auto"></div>
           </div>
           <p className="text-xl md:text-2xl mt-8 max-w-4xl mx-auto text-gray-600 leading-relaxed">
-            To empower businesses with intelligent automation that transforms their sales process, freeing up human talent to do what they do best: build relationships and close deals.
+            We're not just optimizing your pipeline — we're redefining how modern sales teams grow through intelligent automation and empowered human talent.
+          </p>
+          <p className="text-lg mt-6 max-w-3xl mx-auto text-gray-600 leading-relaxed">
+            Our plug-and-play AI sales systems integrate seamlessly into your workflow, delivering qualified leads, booked appointments, and sales-ready conversations — without hiring or overhead.
+          </p>
+          <p className="text-lg mt-6 max-w-3xl mx-auto text-gray-600 leading-relaxed">
+            And behind every result is a highly trained LATAM sales pro, supported by automation and driven by opportunity — ready to accelerate your revenue and scale your success.
           </p>
         </div>
       </section>
@@ -149,14 +158,17 @@ const AboutPage = () => {
         
         <div className="container mx-auto relative z-10">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Revolutionize Your Sales?
+            Your pain. Our mission.
           </h2>
           <p className="text-xl mt-6 text-blue-100 max-w-3xl mx-auto leading-relaxed">
-            Let's build the future of your sales pipeline, together.
+            Empowered performance. Delivered Simply.
+          </p>
+          <p className="text-lg mt-6 text-blue-100 max-w-3xl mx-auto leading-relaxed">
+            We combine skilled LATAM talent with automated AI systems and processes to help you scale faster — no hiring headaches, no guesswork, just consistent sales momentum. Our approach is built on real partnership, clear communication, and a deep commitment to both your growth and ours.
           </p>
           <Link href="/book-a-call">
             <button className="mt-12 bg-white text-blue-600 hover:bg-blue-50 font-bold py-4 px-12 rounded-lg text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform">
-              Book a Free Demo
+              Begin Here
             </button>
           </Link>
         </div>
