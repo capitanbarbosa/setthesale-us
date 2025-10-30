@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const ServicesPage1 = () => {
   const services = [
@@ -78,14 +79,23 @@ const ServicesPage1 = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="relative text-center py-28 px-4 overflow-hidden">
-        {/* Professional Blue Gradient Background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800"></div>
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIwLjUiIG9wYWNpdHk9IjAuMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')]"></div>
-        
-        {/* Subtle accent */}
-        <div className="absolute top-0 right-1/4 w-96 h-96 bg-blue-400 rounded-full mix-blend-overlay filter blur-3xl opacity-20"></div>
-        
+      <section className="relative text-center py-20 px-4 bg-gradient-to-b from-blue-900 to-blue-950 overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/Shapes-icons.png')] bg-no-repeat bg-center bg-cover opacity-10"></div>
+
+        {/* Top Wave */}
+        <div className="absolute top-0 left-0 w-full overflow-hidden">
+          <svg
+            className="relative block w-full h-12"
+            viewBox="0 0 1440 100"
+            preserveAspectRatio="none"
+          >
+            <path
+              fill="#f9fafb"
+              d="M0,50 C240,100 480,0 720,50 C960,100 1200,0 1440,50 L1440,0 L0,0 Z"
+            ></path>
+          </svg>
+        </div>
+
         <div className="container mx-auto relative z-10">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Ready to Automate Your Pipeline?
@@ -94,11 +104,10 @@ const ServicesPage1 = () => {
             Let us show you how our AI-powered services can revolutionize your
             sales process and drive unprecedented growth.
           </p>
-          <Link
-            href="/book-a-call-1"
-            className="mt-12 inline-block bg-white text-blue-600 hover:bg-blue-50 font-bold py-4 px-12 rounded-lg text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform"
-          >
-            Book a Free Growth Audit
+          <Link href="/book-a-call">
+            <button className="mt-12 bg-gradient-to-r from-red-400 to-pink-500 hover:from-red-500 hover:to-pink-600 text-white font-bold py-4 px-12 rounded-full text-lg transition-all duration-300 shadow-xl hover:shadow-2xl">
+              Book a Free Growth Audit
+            </button>
           </Link>
         </div>
       </section>
