@@ -97,7 +97,7 @@ const ServicesPage2 = () => {
         <p className="text-xl mt-4 text-gray-600">
           Let AI do the qualification. You do the closing.
         </p>
-        <Link href="https://calendly.com/pachocripto/initial-consultation-companies" target="_blank" rel="noopener noreferrer">
+        <Link href="https://calendly.com/setthesale/strategy-call" target="_blank" rel="noopener noreferrer">
           <button className="mt-8 bg-gradient-to-r from-red-400 to-pink-500 text-white font-bold py-3 px-8 rounded-lg text-lg">
             Book a Free Demo Call
           </button>

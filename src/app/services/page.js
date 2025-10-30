@@ -201,7 +201,7 @@ const ServicesPage = () => {
           <p className="text-xl mt-6 text-blue-100 max-w-3xl mx-auto leading-relaxed">
             Let AI do the qualification. You do the closing.
           </p>
-          <Link href="https://calendly.com/pachocripto/initial-consultation-companies" target="_blank" rel="noopener noreferrer">
+          <Link href="https://calendly.com/setthesale/strategy-call" target="_blank" rel="noopener noreferrer">
             <button className="mt-12 bg-white text-blue-600 hover:bg-blue-50 font-bold py-4 px-12 rounded-lg text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform">
               Book a Free Demo Call
             </button>

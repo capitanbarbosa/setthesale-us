@@ -72,46 +72,51 @@ const Navbar = () => {
 
   const menuItems = [
     {
-      href: "/",
+      href: "/", // Home - Original (chosen)
       label: "Home",
-      subItems: [
+      subItems: [], // Variations hidden - uncomment to show during development
+      /* subItems: [
         { href: "/home-1", label: "Home 1" },
         { href: "/home-2", label: "Home 2" },
         { href: "/home-3", label: "Home 3" },
-      ],
+      ], */
     },
     {
-      href: "/about",
+      href: "/about", // About - Original (chosen)
       label: "About",
-      subItems: [
+      subItems: [], // Variations hidden - uncomment to show during development
+      /* subItems: [
         { href: "/about-1", label: "About 1" },
         { href: "/about-2", label: "About 2" },
         { href: "/about-3", label: "About 3" },
-      ],
+      ], */
     },
     {
-      href: "/services",
+      href: "/services-1", // Services - Services 1 (chosen)
       label: "Services",
-      subItems: [
-        { href: "/services-1", label: "Services 1" },
+      subItems: [], // Variations hidden - uncomment to show during development
+      /* subItems: [
+        { href: "/services", label: "Services (Original)" },
         { href: "/services-2", label: "Services 2" },
-      ],
+      ], */
     },
     {
-      href: "/contact",
+      href: "/contact", // Contact - Original (chosen)
       label: "Contact",
-      subItems: [
+      subItems: [], // Variations hidden - uncomment to show during development
+      /* subItems: [
         { href: "/contact-1", label: "Contact 1" },
         { href: "/contact-2", label: "Contact 2" },
-      ],
+      ], */
     },
     {
-      href: "/book-a-call",
+      href: "/book-a-call", // Book a Call - Original (chosen)
       label: "Book a Call",
-      subItems: [
+      subItems: [], // Variations hidden - uncomment to show during development
+      /* subItems: [
         { href: "/book-a-call-1", label: "Book a Call 1" },
         { href: "/book-a-call-2", label: "Book a Call 2" },
-      ],
+      ], */
     },
   ];
 

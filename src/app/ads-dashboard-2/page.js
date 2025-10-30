@@ -345,7 +345,7 @@ const AdsDashboard = () => {
           Let us help you implement these proven strategies in your campaigns
         </p>
         <Link
-          href="https://calendly.com/pachocripto/initial-consultation-companies"
+          href="https://calendly.com/setthesale/strategy-call"
           target="_blank"
           rel="noopener noreferrer"
         >

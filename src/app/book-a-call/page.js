@@ -28,7 +28,7 @@ const BookCallPage = () => {
           {/* Calendly embed */}
           <div className="bg-white p-4 rounded-lg shadow-lg">
             <iframe
-              src="https://calendly.com/pachocripto/initial-consultation-companies"
+              src="https://calendly.com/setthesale/strategy-call"
               width="100%"
               height="700"
               frameBorder="0"

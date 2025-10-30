@@ -10,7 +10,7 @@ const AboutPage = () => {
           About <span className="text-blue-600">Set the Sale</span>
         </h1>
         <p className="text-lg mt-6 max-w-3xl mx-auto text-gray-600">
-          We are a team of innovators, strategists, and sales experts dedicated to redefining how businesses grow. We believe in the power of technology to augment human potential.
+          In a world full of overhyped tools and empty sales promises, Set the Sale doesn't just cut costs — we engineer qualified conversations that actually convert.
         </p>
       </section>
 
@@ -18,18 +18,21 @@ const AboutPage = () => {
       <section className="py-24 px-4 bg-gray-50">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div className="pr-8">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story: From Idea to Impact</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Beyond Sales</h2>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              Set the Sale was born from a simple observation: too many sales teams were bogged down by manual, repetitive tasks, preventing them from focusing on high-value activities. We saw an opportunity to change that.
+              In a world full of overhyped tools and empty sales promises, Set the Sale doesn't just cut costs — we engineer qualified conversations that actually convert.
+            </p>
+            <p className="text-gray-600 mb-4 leading-relaxed">
+              Our end-to-end system uses AI and proven strategy to align with your business goals — from identifying high-intent leads, qualifying them in real time, and booking appointments with buyers who are ready to talk.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              We developed an end-to-end system that combines the best of AI with proven sales strategies. Our goal is to create a seamless, efficient pipeline that not only qualifies leads but also delivers sales-ready conversations, empowering teams to achieve unprecedented growth.
+              This isn't just automation. It's a smarter, faster pipeline — built for real revenue, not just activity.
             </p>
           </div>
           <div>
             <Image
-              src="/aboutus-images/About-Page-intro-pic.png"
-              alt="Our Story"
+              src="/aboutus-images/Post-1.png"
+              alt="Beyond sales"
               width={500}
               height={400}
               className="rounded-xl shadow-2xl"
@@ -48,24 +51,24 @@ const AboutPage = () => {
                 {/* Icon for Results */}
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Results-Driven</h3>
-              <p className="text-gray-600">We measure our success by the success of our clients. Outcomes are everything.</p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Results-Driven Excellency</h3>
+              <p className="text-gray-600">We measure success by outcomes, not activity. Every action we take is designed to drive measurable growth and real revenue.</p>
             </div>
             <div className="text-center">
               <div className="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 {/* Icon for Partnership */}
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M15 21a6 6 0 00-9-5.197M15 21a6 6 0 006-5.197M12 15a4 4 0 110-8 4 4 0 010 8z" /></svg>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">True Partnership</h3>
-              <p className="text-gray-600">We work as an extension of your team, deeply invested in your goals and growth.</p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Partner-Centered Growth</h3>
+              <p className="text-gray-600">By understanding your unique Areas of Impact (AOIs), we deploy AI-powered systems and strategic automation to optimize what matters most.</p>
             </div>
             <div className="text-center">
               <div className="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 {/* Icon for Innovation */}
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.636-6.364l.707-.707M12 21v-1m-6.364-1.636l.707-.707M6.343 6.343l-.707-.707" /></svg>
+                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Constant Innovation</h3>
-              <p className="text-gray-600">We are always learning, testing, and improving to stay at the forefront of sales technology.</p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Seamless Execution</h3>
+              <p className="text-gray-600">Our services are built to plug in and perform—fast. We value simplicity, speed, and operational precision in everything we deliver.</p>
             </div>
           </div>
         </div>
@@ -116,13 +119,13 @@ const AboutPage = () => {
       {/* CTA Section */}
       <section className="py-24 px-4 bg-white">
         <div className="container mx-auto text-center bg-blue-600 text-white p-16 rounded-2xl shadow-2xl">
-          <h2 className="text-4xl font-bold">Ready to Become Future-Proof?</h2>
+          <h2 className="text-4xl font-bold">Your pain. Our mission.</h2>
           <p className="text-xl mt-4 max-w-3xl mx-auto text-blue-100">
-            Let's have a conversation about how we can elevate your sales process.
+            We combine skilled LATAM talent with automated AI systems and processes to help you scale faster — no hiring headaches, no guesswork, just consistent sales momentum.
           </p>
           <Link href="/book-a-call">
             <button className="mt-8 bg-white hover:bg-gray-100 text-blue-600 font-bold py-4 px-10 rounded-lg text-lg transition-colors">
-              Schedule a Consultation
+              Begin Here
             </button>
           </Link>
         </div>

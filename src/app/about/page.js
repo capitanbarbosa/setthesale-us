@@ -167,7 +167,7 @@ const AboutPage = () => {
                 to both your growth and ours.
               </p>
               <Link
-                href="https://calendly.com/pachocripto/initial-consultation-companies"
+                href="https://calendly.com/setthesale/strategy-call"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -318,7 +318,7 @@ const AboutPage = () => {
                 Ready to become future-proof?
               </h2>
               <Link
-                href="https://calendly.com/pachocripto/initial-consultation-companies"
+                href="https://calendly.com/setthesale/strategy-call"
                 target="_blank"
                 rel="noopener noreferrer"
               >

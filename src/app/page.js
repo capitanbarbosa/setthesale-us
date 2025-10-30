@@ -16,7 +16,7 @@ export default function Home() {
             Without Adding Headcount or Wasting Time.
           </p>
           <Link
-            href="https://calendly.com/pachocripto/initial-consultation-companies"
+            href="https://calendly.com/setthesale/strategy-call"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -186,7 +186,7 @@ export default function Home() {
             </div>
           </div>
           <Link
-            href="https://calendly.com/pachocripto/initial-consultation-companies"
+            href="https://calendly.com/setthesale/strategy-call"
             target="_blank"
             rel="noopener noreferrer"
           >
