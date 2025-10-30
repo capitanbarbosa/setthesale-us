@@ -6,7 +6,21 @@ import Image from "next/image";
 import { Menu, Transition } from "@headlessui/react";
 
 const NavItem = ({ item, closeMenu }) => {
-  return (
+  // If no subItems, render as simple link
+  if (!item.subItems || item.subItems.length === 0) {
+    return (
+      <Link
+        href={item.href}
+        className="inline-flex justify-center rounded-md px-4 py-2 text-sm font-medium text-black hover:text-gray-300 focus:outline-none"
+        onClick={closeMenu}
+      >
+        {item.label}
+      </Link>
+    );
+  }
+
+  // If subItems exist, render dropdown menu (currently disabled, uncomment subItems to enable)
+  /* return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
         <Menu.Button className="inline-flex justify-center w-full rounded-md px-4 py-2 text-sm font-medium text-black hover:text-gray-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
@@ -56,7 +70,7 @@ const NavItem = ({ item, closeMenu }) => {
         </Menu.Items>
       </Transition>
     </Menu>
-  );
+  ); */
 };
 
 const Navbar = () => {
