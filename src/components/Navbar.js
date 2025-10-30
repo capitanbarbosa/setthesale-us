@@ -123,15 +123,15 @@ const Navbar = () => {
         { href: "/contact-2", label: "Contact 2" },
       ], */
     },
-    {
-      href: "/book-a-call", // Book a Call - Original (chosen)
-      label: "Book a Call",
-      subItems: [], // Variations hidden - uncomment to show during development
-      /* subItems: [
-        { href: "/book-a-call-1", label: "Book a Call 1" },
-        { href: "/book-a-call-2", label: "Book a Call 2" },
-      ], */
-    },
+    // {
+    //   href: "/book-a-call", // Book a Call - Original (chosen)
+    //   label: "Book a Call",
+    //   subItems: [], // Variations hidden - uncomment to show during development
+    //   /* subItems: [
+    //     { href: "/book-a-call-1", label: "Book a Call 1" },
+    //     { href: "/book-a-call-2", label: "Book a Call 2" },
+    //   ], */
+    // },
   ];
 
   return (
@@ -156,7 +156,7 @@ const Navbar = () => {
               <NavItem key={item.href} item={item} closeMenu={closeMenu} />
             ))}
             <Link
-              href="https://calendly.com/setthesale/strategy-call"
+              href="/book-a-call"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -219,7 +219,7 @@ const Navbar = () => {
             ))}
             <div className="px-3 py-2">
               <Link
-                href="https://calendly.com/setthesale/strategy-call"
+                href="/book-a-call"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={closeMenu}
