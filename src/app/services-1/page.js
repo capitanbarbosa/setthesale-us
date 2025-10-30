@@ -35,7 +35,7 @@ const ServicesPage1 = () => {
       <section className="text-center py-24 px-4 bg-gradient-to-b from-slate-50 to-white">
         <div className="container mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Our <span className="text-blue-600">Services</span>
+            Our <span className="text-blue-700">Services</span>
           </h1>
           <p className="text-xl mt-6 max-w-3xl mx-auto text-gray-600 leading-relaxed">
             We blend into your sales ops, up to half of the cost! A step-by-step
