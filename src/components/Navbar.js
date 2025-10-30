@@ -155,11 +155,7 @@ const Navbar = () => {
             {menuItems.map((item) => (
               <NavItem key={item.href} item={item} closeMenu={closeMenu} />
             ))}
-            <Link
-              href="/book-a-call"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link href="/book-a-call">
               <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 text-sm cursor-pointer">
                 Book a Call
               </button>
@@ -218,12 +214,7 @@ const Navbar = () => {
               <NavItem key={item.href} item={item} closeMenu={closeMenu} />
             ))}
             <div className="px-3 py-2">
-              <Link
-                href="/book-a-call"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={closeMenu}
-              >
+              <Link href="/book-a-call" onClick={closeMenu}>
                 <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-300 cursor-pointer">
                   Book a Call
                 </button>
