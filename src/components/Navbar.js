@@ -156,11 +156,11 @@ const Navbar = () => {
               <NavItem key={item.href} item={item} closeMenu={closeMenu} />
             ))}
             <Link
-              href="https://calendly.com/pachocripto/initial-consultation-companies"
+              href="https://calendly.com/setthesale/strategy-call"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 text-sm">
+              <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 text-sm cursor-pointer">
                 Book a Call
               </button>
             </Link>
@@ -219,12 +219,12 @@ const Navbar = () => {
             ))}
             <div className="px-3 py-2">
               <Link
-                href="https://calendly.com/pachocripto/initial-consultation-companies"
+                href="https://calendly.com/setthesale/strategy-call"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={closeMenu}
               >
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-300">
+                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-300 cursor-pointer">
                   Book a Call
                 </button>
               </Link>
