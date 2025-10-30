@@ -14,7 +14,7 @@ const BookCallPage = () => {
       </section>
 
       <section className="py-10 px-4 bg-white">
-        <div className="container mx-auto max-w-4xl text-center">
+        <div className="container mx-auto max-w-5xl text-center">
           <h2 className="text-3xl font-bold mb-8 text-blue-900">
             Schedule Your Call
           </h2>
@@ -26,14 +26,15 @@ const BookCallPage = () => {
           </p>
 
           {/* Calendly embed */}
-          <div className="bg-white p-4 rounded-lg shadow-lg">
+          <div className="bg-white p-4 rounded-lg shadow-lg ">
             <iframe
               src="https://calendly.com/setthesale/strategy-call"
               width="100%"
-              height="700"
+              height="1000"
               frameBorder="0"
               title="Schedule a consultation"
               className="rounded-lg"
+              style={{ minHeight: '900px' }}
             ></iframe>
           </div>
         </div>
