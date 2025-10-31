@@ -5,13 +5,17 @@ import Link from "next/link";
 import Image from "next/image";
 import { Menu, Transition } from "@headlessui/react";
 
-const NavItem = ({ item, closeMenu }) => {
+const NavItem = ({ item, closeMenu, isMobile = false }) => {
   // If no subItems, render as simple link
   if (!item.subItems || item.subItems.length === 0) {
     return (
       <Link
         href={item.href}
-        className="inline-flex justify-center rounded-md px-4 py-2 text-sm font-medium text-black hover:text-gray-300 focus:outline-none"
+        className={`${
+          isMobile
+            ? "block w-full text-left px-4 py-3 text-lg font-medium text-gray-900 hover:bg-gray-100 rounded-md"
+            : "inline-flex justify-center rounded-md px-4 py-2 text-sm font-medium text-black hover:text-gray-300"
+        } focus:outline-none`}
         onClick={closeMenu}
       >
         {item.label}
@@ -209,13 +213,13 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"}`}>
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-blue-900 rounded-lg mt-2 mb-4">
+          <div className="px-2 pt-2 pb-3 space-y-2 sm:px-3 bg-white rounded-lg mt-2 mb-4 shadow-lg">
             {menuItems.map((item) => (
-              <NavItem key={item.href} item={item} closeMenu={closeMenu} />
+              <NavItem key={item.href} item={item} closeMenu={closeMenu} isMobile={true} />
             ))}
-            <div className="px-3 py-2">
+            <div className="px-2 py-2">
               <Link href="/book-a-call" onClick={closeMenu}>
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-300 cursor-pointer">
+                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-300 cursor-pointer text-lg">
                   Book a Call
                 </button>
               </Link>
