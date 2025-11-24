@@ -159,6 +159,14 @@ const Navbar = () => {
             {menuItems.map((item) => (
               <NavItem key={item.href} item={item} closeMenu={closeMenu} />
             ))}
+              {/* Dev-only QA link: visible only in development */}
+              {process.env.NODE_ENV !== "production" && (
+                <Link href="/home-4" className="hidden lg:inline-block">
+                  <span className="text-sm text-gray-700 hover:text-gray-900 border border-gray-200 rounded-md px-2 py-1">
+                    DEV: Home-4
+                  </span>
+                </Link>
+              )}
             <Link href="/book-a-call">
               <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 text-sm cursor-pointer">
                 Book a Call
@@ -217,6 +225,18 @@ const Navbar = () => {
             {menuItems.map((item) => (
               <NavItem key={item.href} item={item} closeMenu={closeMenu} isMobile={true} />
             ))}
+
+            {/* Dev-only QA link for mobile (visible only in development) */}
+            {process.env.NODE_ENV !== "production" && (
+              <div className="px-2 py-2">
+                <Link href="/home-4" onClick={closeMenu}>
+                  <span className="block w-full text-center text-sm text-gray-900 bg-white rounded-md py-2">
+                    DEV: Home-4
+                  </span>
+                </Link>
+              </div>
+            )}
+
             <div className="px-2 py-2">
               <Link href="/book-a-call" onClick={closeMenu}>
                 <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-300 cursor-pointer text-lg">
