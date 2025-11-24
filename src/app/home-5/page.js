@@ -8,7 +8,7 @@ export default function Home5() {
       <section className="relative text-center py-16 px-4 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto max-w-5xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-            Add <span className="text-orange-500">$400k+ Annually</span> with
+            Add <span className="text-blue-600">$400k+ Annually</span> with
             <br />
             120-day AI Deployment
           </h1>
@@ -37,7 +37,7 @@ export default function Home5() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl">
               Book Now
             </button>
           </Link>
@@ -50,11 +50,11 @@ export default function Home5() {
           <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8 text-white text-xs md:text-sm">
             <span className="font-semibold">Who we've worked with across sharpshooting projects</span>
             <div className="flex flex-wrap justify-center gap-4 md:gap-8">
-              <span className="hover:text-orange-500 transition-colors cursor-pointer">Cyril AI</span>
-              <span className="hover:text-orange-500 transition-colors cursor-pointer">RISK ACADEMY</span>
-              <span className="hover:text-orange-500 transition-colors cursor-pointer">Sierra Productions</span>
-              <span className="hover:text-orange-500 transition-colors cursor-pointer">Dropside Media</span>
-              <span className="hover:text-orange-500 transition-colors cursor-pointer">Proposal</span>
+              <span className="hover:text-blue-400 transition-colors cursor-pointer">Cyril AI</span>
+              <span className="hover:text-blue-400 transition-colors cursor-pointer">RISK ACADEMY</span>
+              <span className="hover:text-blue-400 transition-colors cursor-pointer">Sierra Productions</span>
+              <span className="hover:text-blue-400 transition-colors cursor-pointer">Dropside Media</span>
+              <span className="hover:text-blue-400 transition-colors cursor-pointer">Proposal</span>
             </div>
           </div>
         </div>
@@ -72,22 +72,22 @@ export default function Home5() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-orange-500 text-5xl font-bold mb-2">78%</div>
+              <div className="text-blue-600 text-5xl font-bold mb-2">78%</div>
               <p className="text-gray-700 font-semibold mb-1">retention consistently</p>
               <p className="text-gray-500 text-sm">We've helped our clients maintain contracts, long-term through higher value added</p>
             </div>
             <div className="text-center">
-              <div className="text-orange-500 text-5xl font-bold mb-2">4-months</div>
+              <div className="text-blue-600 text-5xl font-bold mb-2">4-months</div>
               <p className="text-gray-700 font-semibold mb-1">to full roll out</p>
               <p className="text-gray-500 text-sm">The complexity isn't your burden, we learn your business then structure AI to optimize accordingly</p>
             </div>
             <div className="text-center">
-              <div className="text-orange-500 text-5xl font-bold mb-2">$400K+</div>
+              <div className="text-blue-600 text-5xl font-bold mb-2">$400K+</div>
               <p className="text-gray-700 font-semibold mb-1">in new revenue captured</p>
               <p className="text-gray-500 text-sm">Clients typically add this much, if not more, within the first year of their AI infrastructure</p>
             </div>
             <div className="text-center">
-              <div className="text-orange-500 text-5xl font-bold mb-2">100%</div>
+              <div className="text-blue-600 text-5xl font-bold mb-2">100%</div>
               <p className="text-gray-700 font-semibold mb-1">done-for-you architecture</p>
               <p className="text-gray-500 text-sm">We don't consult or suggest, we dive-in, build the systems and ensure team adoption</p>
             </div>
@@ -102,7 +102,7 @@ export default function Home5() {
             <div className="order-2 md:order-1">
               <div className="bg-white p-8 rounded-lg shadow-sm">
                 <p className="text-gray-700 text-lg mb-6 italic">
-                  "We closed a <span className="font-bold text-orange-500">six-figure deal</span> because our AI agent sounded like a real American guy. My previous AI demo felt robotic, with kind. My closers were burnt out from angry callers spamming 9 – they wanted to speak to a person, not a bot. Now our AI agent handles it seamlessly. There's no angry wasters, and qualifies serious leads flawlessly."
+                  "We closed a <span className="font-bold text-blue-600">six-figure deal</span> because our AI agent sounded like a real American guy. My previous AI demo felt robotic, with kind. My closers were burnt out from angry callers spamming 9 – they wanted to speak to a person, not a bot. Now our AI agent handles it seamlessly. There's no angry wasters, and qualifies serious leads flawlessly."
                 </p>
                 <div>
                   <p className="font-bold text-gray-900">Jason Wardrop</p>
@@ -280,7 +280,7 @@ export default function Home5() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Phase 1</h3>
-              <h4 className="text-lg font-semibold text-orange-500 mb-3">Discovery & Scoping</h4>
+              <h4 className="text-lg font-semibold text-blue-600 mb-3">Discovery & Scoping</h4>
               <p className="text-gray-600 text-sm mb-3">1-2 weeks</p>
               <p className="text-gray-600 text-sm">
                 We map your operations and identify the highest-impact AI opportunities
@@ -288,7 +288,7 @@ export default function Home5() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Phase 2</h3>
-              <h4 className="text-lg font-semibold text-orange-500 mb-3">Development & Integration</h4>
+              <h4 className="text-lg font-semibold text-blue-600 mb-3">Development & Integration</h4>
               <p className="text-gray-600 text-sm mb-3">6-8 weeks</p>
               <p className="text-gray-600 text-sm">
                 We build, test, and wire your custom AI tools directly into your workflow
@@ -296,7 +296,7 @@ export default function Home5() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Phase 3</h3>
-              <h4 className="text-lg font-semibold text-orange-500 mb-3">Training & Rollout</h4>
+              <h4 className="text-lg font-semibold text-blue-600 mb-3">Training & Rollout</h4>
               <p className="text-gray-600 text-sm mb-3">2-3 weeks</p>
               <p className="text-gray-600 text-sm">
                 Your team learns how to use their new systems. We provide documentation and live training
@@ -304,7 +304,7 @@ export default function Home5() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Phase 4</h3>
-              <h4 className="text-lg font-semibold text-orange-500 mb-3">Optimization & Support</h4>
+              <h4 className="text-lg font-semibold text-blue-600 mb-3">Optimization & Support</h4>
               <p className="text-gray-600 text-sm mb-3">Ongoing</p>
               <p className="text-gray-600 text-sm">
                 We fine-tune, add new agents or automations, and scale with your growth
@@ -328,7 +328,7 @@ export default function Home5() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-4 px-10 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-10 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl">
               Book a Free Call
             </button>
           </Link>
@@ -349,7 +349,7 @@ export default function Home5() {
             <details className="bg-white p-6 rounded-lg shadow-sm group">
               <summary className="font-semibold text-gray-900 cursor-pointer flex justify-between items-center">
                 What if we need our AI before your 120 days is up? Is that possible?
-                <span className="text-orange-500 text-2xl group-open:rotate-45 transition-transform">+</span>
+                <span className="text-blue-600 text-2xl group-open:rotate-45 transition-transform">+</span>
               </summary>
               <p className="mt-4 text-gray-600">
                 Yes! We can often accelerate timelines based on your specific needs. During our discovery call, we'll discuss your urgency and adjust the roadmap accordingly.
@@ -359,7 +359,7 @@ export default function Home5() {
             <details className="bg-white p-6 rounded-lg shadow-sm group">
               <summary className="font-semibold text-gray-900 cursor-pointer flex justify-between items-center">
                 How long does the entire process really take - start to finish with AI in my system?
-                <span className="text-orange-500 text-2xl group-open:rotate-45 transition-transform">+</span>
+                <span className="text-blue-600 text-2xl group-open:rotate-45 transition-transform">+</span>
               </summary>
               <p className="mt-4 text-gray-600">
                 Typically 120 days from kickoff to full deployment. This includes discovery, development, integration, testing, training, and optimization.
@@ -369,7 +369,7 @@ export default function Home5() {
             <details className="bg-white p-6 rounded-lg shadow-sm group">
               <summary className="font-semibold text-gray-900 cursor-pointer flex justify-between items-center">
                 Will I have control over the process? Will we work together - or are you just going to build what YOU think is right?
-                <span className="text-orange-500 text-2xl group-open:rotate-45 transition-transform">+</span>
+                <span className="text-blue-600 text-2xl group-open:rotate-45 transition-transform">+</span>
               </summary>
               <p className="mt-4 text-gray-600">
                 You'll be involved every step of the way. We collaborate closely and nothing gets deployed without your approval. This is your system, built around your needs.
@@ -379,7 +379,7 @@ export default function Home5() {
             <details className="bg-white p-6 rounded-lg shadow-sm group">
               <summary className="font-semibold text-gray-900 cursor-pointer flex justify-between items-center">
                 Can this make our employees irrelevant? How do we handle the "people" aspect of AI?
-                <span className="text-orange-500 text-2xl group-open:rotate-45 transition-transform">+</span>
+                <span className="text-blue-600 text-2xl group-open:rotate-45 transition-transform">+</span>
               </summary>
               <p className="mt-4 text-gray-600">
                 AI augments your team, it doesn't replace them. We help your people focus on high-value work while AI handles repetitive tasks. We also provide change management guidance.
@@ -389,7 +389,7 @@ export default function Home5() {
             <details className="bg-white p-6 rounded-lg shadow-sm group">
               <summary className="font-semibold text-gray-900 cursor-pointer flex justify-between items-center">
                 What if we're not technical people? How will we know all this stuff is working?
-                <span className="text-orange-500 text-2xl group-open:rotate-45 transition-transform">+</span>
+                <span className="text-blue-600 text-2xl group-open:rotate-45 transition-transform">+</span>
               </summary>
               <p className="mt-4 text-gray-600">
                 That's exactly why we exist. We build everything for you and train your team in plain English. No technical expertise required on your end.
@@ -399,7 +399,7 @@ export default function Home5() {
             <details className="bg-white p-6 rounded-lg shadow-sm group">
               <summary className="font-semibold text-gray-900 cursor-pointer flex justify-between items-center">
                 Do you just AI like ChatGPT or is this all custom AI?
-                <span className="text-orange-500 text-2xl group-open:rotate-45 transition-transform">+</span>
+                <span className="text-blue-600 text-2xl group-open:rotate-45 transition-transform">+</span>
               </summary>
               <p className="mt-4 text-gray-600">
                 We use the best AI models (including ChatGPT's underlying tech), but customize and fine-tune them specifically for your business, your data, and your workflows.
@@ -409,7 +409,7 @@ export default function Home5() {
             <details className="bg-white p-6 rounded-lg shadow-sm group">
               <summary className="font-semibold text-gray-900 cursor-pointer flex justify-between items-center">
                 Where is this AI deployed? Is there a limit on how I can deploy it (UNLIMITED)?
-                <span className="text-orange-500 text-2xl group-open:rotate-45 transition-transform">+</span>
+                <span className="text-blue-600 text-2xl group-open:rotate-45 transition-transform">+</span>
               </summary>
               <p className="mt-4 text-gray-600">
                 The AI is deployed in your existing systems and tools. There are no arbitrary limits - we scale the solution to match your business needs.
@@ -419,7 +419,7 @@ export default function Home5() {
             <details className="bg-white p-6 rounded-lg shadow-sm group">
               <summary className="font-semibold text-gray-900 cursor-pointer flex justify-between items-center">
                 Why are AI tools of this type supposed to be expensive?
-                <span className="text-orange-500 text-2xl group-open:rotate-45 transition-transform">+</span>
+                <span className="text-blue-600 text-2xl group-open:rotate-45 transition-transform">+</span>
               </summary>
               <p className="mt-4 text-gray-600">
                 Custom AI solutions require deep technical expertise, significant development time, and ongoing optimization. However, the ROI typically far exceeds the investment within the first year.
@@ -433,7 +433,7 @@ export default function Home5() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl">
+              <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl">
                 Book Now
               </button>
             </Link>
@@ -458,7 +458,7 @@ export default function Home5() {
                   <div className="text-center text-white">
                     <div className="text-6xl font-bold mb-2">Become an AI</div>
                     <div className="text-6xl font-bold">First Company</div>
-                    <div className="mt-4 text-2xl">In <span className="text-orange-500">Under 4 Months</span></div>
+                    <div className="mt-4 text-2xl">In <span className="text-blue-400">Under 4 Months</span></div>
                     <div className="mt-6">
                       <span className="bg-purple-600 text-white px-6 py-2 rounded-full font-semibold">
                         $400k+ Today
@@ -480,7 +480,7 @@ export default function Home5() {
                   <div className="text-center text-white">
                     <div className="text-6xl font-bold mb-2">Become an AI</div>
                     <div className="text-6xl font-bold">First Company</div>
-                    <div className="mt-4 text-2xl">In <span className="text-orange-500">Under 4 Months</span></div>
+                    <div className="mt-4 text-2xl">In <span className="text-blue-400">Under 4 Months</span></div>
                     <div className="mt-6">
                       <span className="bg-purple-600 text-white px-6 py-2 rounded-full font-semibold">
                         $400k+ Today
@@ -500,7 +500,7 @@ export default function Home5() {
       </section>
 
       {/* Bottom CTA */}
-      <section className="py-12 px-4 bg-gradient-to-r from-orange-400 to-orange-500 text-white text-center">
+      <section className="py-12 px-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-center">
         <div className="container mx-auto max-w-4xl">
           <h3 className="text-2xl md:text-3xl font-bold mb-4">
             Ready to add $400k+ to your bottom line?
@@ -513,7 +513,7 @@ export default function Home5() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="bg-white text-orange-500 hover:bg-gray-100 font-semibold py-3 px-10 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl">
+            <button className="bg-white text-blue-600 hover:bg-gray-100 font-semibold py-3 px-10 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl">
               Schedule Your Free Call
             </button>
           </Link>
@@ -522,6 +522,7 @@ export default function Home5() {
     </div>
   );
 }
+
 
 
 
