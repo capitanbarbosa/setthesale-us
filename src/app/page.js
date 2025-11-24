@@ -29,29 +29,29 @@ export default function Home() {
 
       {/* Stats Section */}
       <section className="py-20 px-4 bg-white">
-        <div className="container mx-auto">
+        <div className="container mx-auto max-w-5xl">
           <h2 className="text-3xl font-bold text-center mb-12 text-blue-900">
-            Smart Companies Don’t Waste Time on Dead Leads. They Use Us.
+            Smart Companies Don't Waste Time on Dead Leads. They Use Us.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
-              <p className="text-5xl font-bold text-blue-600">70%</p>
+              <p className="text-4xl font-bold text-blue-600">70%</p>
               <p className="text-lg mt-2 text-gray-600">
                 Reduction in SDR Hours
               </p>
             </div>
             <div>
-              <p className="text-5xl font-bold text-blue-600">60%</p>
+              <p className="text-4xl font-bold text-blue-600">60%</p>
               <p className="text-lg mt-2 text-gray-600">
                 Increase in Qualified Appointments
               </p>
             </div>
             <div>
-              <p className="text-5xl font-bold text-blue-600">300%</p>
+              <p className="text-4xl font-bold text-blue-600">300%</p>
               <p className="text-lg mt-2 text-gray-600">Faster Response Time</p>
             </div>
             <div>
-              <p className="text-5xl font-bold text-blue-600">
+              <p className="text-4xl font-bold text-blue-600">
                 Up to 70K/ Year
               </p>
               <p className="text-lg mt-2 text-gray-600">
@@ -63,55 +63,62 @@ export default function Home() {
       </section>
 
       {/* Trusted by... */}
-      <section className="py-12 px-4 bg-gray-50">
-        <h3 className="text-center text-2xl font-semibold mb-8 text-blue-900">
-          Trusted by Top Teams
-        </h3>
-        <div className="flex flex-wrap justify-center items-center gap-8 max-w-4xl mx-auto">
-          <div className="opacity-60 hover:opacity-100 transition-opacity duration-300">
-            <Image
-              src="/images/company-logo-1.svg"
-              alt="Company Logo 1"
-              width={120}
-              height={40}
-              className="grayscale hover:grayscale-0 transition-all duration-300"
-            />
+      <section className="py-16 px-4 bg-gradient-to-b from-white to-gray-50 border-t border-gray-200">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold text-gray-500 uppercase tracking-widest mb-3">
+              Trusted Partners
+            </p>
+            <h3 className="text-3xl font-bold text-blue-900">
+              Trusted by Top Teams
+            </h3>
           </div>
-          <div className="opacity-60 hover:opacity-100 transition-opacity duration-300">
-            <Image
-              src="/images/company-logo-2.svg"
-              alt="Company Logo 2"
-              width={120}
-              height={40}
-              className="grayscale hover:grayscale-0 transition-all duration-300"
-            />
-          </div>
-          <div className="opacity-60 hover:opacity-100 transition-opacity duration-300">
-            <Image
-              src="/images/company-logo-3.svg"
-              alt="Company Logo 3"
-              width={120}
-              height={40}
-              className="grayscale hover:grayscale-0 transition-all duration-300"
-            />
-          </div>
-          <div className="opacity-60 hover:opacity-100 transition-opacity duration-300">
-            <Image
-              src="/images/company-logo-4.svg"
-              alt="Company Logo 4"
-              width={120}
-              height={40}
-              className="grayscale hover:grayscale-0 transition-all duration-300"
-            />
-          </div>
-          <div className="opacity-60 hover:opacity-100 transition-opacity duration-300">
-            <Image
-              src="/images/company-logo-5.svg"
-              alt="Company Logo 5"
-              width={120}
-              height={40}
-              className="grayscale hover:grayscale-0 transition-all duration-300"
-            />
+          <div className="flex flex-wrap justify-center items-center gap-12 md:gap-16">
+            <div className="opacity-50 hover:opacity-100 transition-all duration-300 transform hover:scale-110 group">
+              <Image
+                src="/images/company-logo-1.svg"
+                alt="Company Logo 1"
+                width={140}
+                height={45}
+                className="grayscale hover:grayscale-0 transition-all duration-300 filter drop-shadow-md"
+              />
+            </div>
+            <div className="opacity-50 hover:opacity-100 transition-all duration-300 transform hover:scale-110 group">
+              <Image
+                src="/images/company-logo-2.svg"
+                alt="Company Logo 2"
+                width={140}
+                height={45}
+                className="grayscale hover:grayscale-0 transition-all duration-300 filter drop-shadow-md"
+              />
+            </div>
+            <div className="opacity-50 hover:opacity-100 transition-all duration-300 transform hover:scale-110 group">
+              <Image
+                src="/images/company-logo-3.svg"
+                alt="Company Logo 3"
+                width={140}
+                height={45}
+                className="grayscale hover:grayscale-0 transition-all duration-300 filter drop-shadow-md"
+              />
+            </div>
+            <div className="opacity-50 hover:opacity-100 transition-all duration-300 transform hover:scale-110 group">
+              <Image
+                src="/images/company-logo-4.svg"
+                alt="Company Logo 4"
+                width={140}
+                height={45}
+                className="grayscale hover:grayscale-0 transition-all duration-300 filter drop-shadow-md"
+              />
+            </div>
+            <div className="opacity-50 hover:opacity-100 transition-all duration-300 transform hover:scale-110 group">
+              <Image
+                src="/images/company-logo-5.svg"
+                alt="Company Logo 5"
+                width={140}
+                height={45}
+                className="grayscale hover:grayscale-0 transition-all duration-300 filter drop-shadow-md"
+              />
+            </div>
           </div>
         </div>
       </section>
